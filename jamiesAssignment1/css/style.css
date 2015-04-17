@@ -1,0 +1,261 @@
+/* general element style */
+
+body {
+    line-height: 150%;
+}
+a:link {
+    color: steelblue;
+}
+a:visited {
+    color: steelblue;
+}
+a:hover {
+    color: lightblue;
+}
+a:active {
+    text-decoration: none;
+}
+
+/* apply to everything so we don't need to account for margins and padding when calculating widths */
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* highlight words on callout */
+
+span[id^="word-"] {
+    color: lightblue;
+}
+
+/* div id styles */
+
+#header {
+    color: white;
+    text-align: center;
+    background-image: url('../images/beachNet_dark.jpg');
+    background-size: cover;
+    background-position: bottom;
+    border-bottom: 2px solid lightgray;
+}
+#navigation {
+    background-image: url('../images/logo.png');
+    background-position: left top;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    float: right;
+}
+#menu li {
+    display: inline;
+    float: left;
+}
+#menu a {
+    padding: 25px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+#menu-mobile a {
+    color: white;
+}
+#menu a:hover, #menu-mobile a:hover {
+    color: lightblue;
+}
+#menu-mobile {
+    display: none;
+}
+#callout {
+    overflow: auto;
+    height: 400px;
+}
+#callout-form {
+    border-left: 1px solid white;
+}
+#announcements {
+    font-size: smaller;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: justify left;
+    border: 1px solid lightgray;
+    background: radial-gradient(at top, whitesmoke 20%, white 80%); 
+}
+#announcements li {
+    padding: 0 0 10px;
+    
+}
+#footer {
+    clear: both;
+    color: gray;
+    border-top: 1px solid lightgray;
+    font-size: smaller;
+    padding: 10px;
+    background: radial-gradient(at bottom, whitesmoke 20%, white 80%); 
+}
+#ladder {
+    width: 100%;
+    text-align: right;
+    margin: 0 auto 20px;
+}
+#ladder td, th {
+    padding: 10px;
+}
+#ladder th {
+    background: lightblue;
+}
+#callout-small {
+    clear: both;
+    height: 100px;
+    background-image: url(../images/beachNet_dark.jpg);
+    background-size: cover;
+    background-position:center;
+    text-align: center;
+    color: white;
+}
+
+/* columns */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.col-wide {
+    width: 66%;
+    padding: 20px;
+    float:left;
+    display: inline-block;
+    vertical-align: top;
+}
+.col-full {
+    width: 100%;
+    padding: 20px;
+    float:left;
+    display: inline-block;
+    vertical-align: top;
+}
+.col-narrow {
+    width: 33%;
+    padding: 20px;
+    float:left;
+    display: inline-block;
+    vertical-align: top;
+}
+.vert-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.clear {
+    clear:both;
+}
+
+/* reusable font classes */
+
+.font-narrow {
+    font-weight: lighter;
+}
+.font-lead {
+    font-size: large;
+}
+.font-justify {
+    text-align: justify;
+}
+.font-center {
+    text-align:center;
+}
+.font-icon {
+    color: lightblue;
+    float:left;
+    margin: 20px;
+}
+.responsive-image {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* form styling */
+
+.input {
+    width: 100%;
+    padding: 15px 25px;
+    margin: 10px 0 10px 0;
+    color: black;
+    text-align: justify;
+    border: 3px solid white;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px lightgray;
+}
+.input:focus {
+    color: #363636;
+    border: 3px solid lightblue;
+    box-shadow: inset 0 1px 2px lightgray;
+    outline: 0;
+}
+.input:hover {
+    border: 3px solid lightblue;
+}
+button {
+    width: 100%;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    text-shadow: 0px 1px 0px #2f6627;
+    background: linear-gradient(lightblue, steelblue);
+}
+button:hover {
+    background: linear-gradient(lightsteelblue, steelblue);
+}
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.col-narrow, .col-wide {
+		width: 100%;
+		float: none;
+        clear: both;
+	}
+    .vert-center {
+        top: none;
+        transform: none;
+    }
+    #callout {
+        height: auto ;
+    }
+    #callout-form {
+        border-left: none;
+    }
+    #navigation {
+        background-position: center top;
+    }
+    #menu {
+        display: none;
+    }
+    #menu li {
+        display: block;
+        width: 100%;
+        font-size: x-large;
+    }
+    #menu-mobile {
+        display: inline-block;
+        clear: both;
+        float: left;
+        padding: 15px;
+    }
+    #callout-small {
+        height: auto;
+    }
+}
