@@ -1,8 +1,9 @@
-//establish database connection
+
+<?php
 try{
     $dat = new PDO("sqlite:musiccentredb.sqlite");
 }
 catch(PDOException $e){
-    echo e->getMessage();
+    echo $e->getMessage();
 }
 ?>

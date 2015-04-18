@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3902265874">
-    <data-source source="LOCAL" name="musiccentredb" uuid="b42d9dd4-1d5c-41cb-94a6-313d9d3a64c0">
+  <component name="DataSourceManagerImpl" format="xml" hash="1042935399">
+    <data-source source="LOCAL" name="musiccentredb" uuid="7b5ed6fb-f8ac-4367-b729-1895c1f01cd8">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
