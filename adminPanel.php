@@ -23,15 +23,25 @@
         $table = $dat->query("select * from " . $_REQUEST["pageOption"]);
 
         // fetch and limit by associated columns
-        $result = $table->fetchAll(PDO::FETCH_ASSOC);
+        $result = $table->fetchAll(PDO::FETCH_ASSOC);   
 
-        // create an input field for each value in each row
-        foreach ($result as $row) {
-            foreach ($row as $item) {
-                echo '<input value="' . $item . '"></input> ';
+        //create new form for each row to handle update and delete 
+        foreach ($result as $row) {   
+            echo '<p><form action="editRecord.php" method "POST">';            
+            
+            // create an input field for each value in each row
+            foreach ($row as $i => $item) {
+                echo '<input name="' . $i . '" value="' . $item . '"></input> ';
             }
-
-            echo "<br />";
+            
+            // save name of the table as hidden property for easy editing
+            echo '<input type="hidden" name="table" value="' . $_REQUEST["pageOption"] . '"></input>';
+            
+            // value of only one button will be sent for processing
+            echo '<button type="submit" name="submit" value="delete">Delete</button>';
+            echo '<button type="submit" name="submit" value="update">Update</button>';
+            echo '</form>';
+            echo "</p>";
         }
     }?>   
 </fieldset>
