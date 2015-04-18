@@ -1,4 +1,3 @@
-
 <?php
 try{
     $dat = new PDO("sqlite:musiccentredb.sqlite");
