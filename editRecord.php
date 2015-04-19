@@ -22,7 +22,10 @@ else if ($_REQUEST['submit'] == 'update') {
     }
 }
 
-// return to admin page
-header('Location: test.php');
+// close database
+$dat = null;
+
+// return to admin page and display updated table
+header('Location: test.php?pageOption='. $_REQUEST['table']);
 
 ?>
