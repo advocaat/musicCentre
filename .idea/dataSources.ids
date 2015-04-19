@@ -1,56 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source name="musiccentredb" uuid="7b5ed6fb-f8ac-4367-b729-1895c1f01cd8">
+  <data-source name="musiccentredb" uuid="8fedfa65-ebc0-486a-afa1-634762059c63">
     <database-info product="SQLite" version="3.8.7" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
     <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
     <schema name="" catalog=""/>
-    <table name="artist_data" schema="" catalog="" type="TABLE">
-      <column name="artist_name" sqlType="TEXT(50)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
-      <column name="artist_bio" sqlType="TEXT(300)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
-      <column name="artist_contact" sqlType="TEXT(50)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
-      <column name="artist_photo" sqlType="TEXT(50)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
-      <column name="artist_logo" sqlType="TEXT(50)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+    <table name="artist" schema="" catalog="" type="TABLE">
+      <column name="artist_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="artist_name" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="artist_bio" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="artist_contact" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="artist_photo" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="artist_logo" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <primary-key columns="artist_id"/>
     </table>
-    <table name="bulletin_posts" schema="" catalog="" type="TABLE">
-      <column name="post_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
-      <column name="user_name" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
-      <column name="user_id" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
-      <column name="post_content" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
-      <primary-key columns="post_id"/>
-      <foreign-key name="#FAKE_bulletin_posts_1" columns="user_id" ref-table="user_data" ref-schema="" ref-catalog="" ref-columns="user_name" update-rule="3" delete-rule="3" deferrability="1"/>
-      <foreign-key name="#FAKE_bulletin_posts_2" columns="user_name" ref-table="user_data" ref-schema="" ref-catalog="" ref-columns="user_name" update-rule="3" delete-rule="3" deferrability="1"/>
+    <table name="bulletin" schema="" catalog="" type="TABLE">
+      <column name="bulletin_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="bulletin_user" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="bulletin_title" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="bulletin_content" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <primary-key columns="bulletin_id"/>
+      <foreign-key name="#FAKE_bulletin_1" columns="bulletin_content" ref-table="user_data" ref-schema="" ref-catalog="" ref-columns="user_name" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_bulletin_2" columns="bulletin_user" ref-table="user_data" ref-schema="" ref-catalog="" ref-columns="user_name" update-rule="3" delete-rule="3" deferrability="1"/>
     </table>
-    <table name="event_data" schema="" catalog="" type="TABLE">
-      <column name="event_id" sqlType="INT" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
-      <column name="event_name" sqlType="VARCHAR(30)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
-      <column name="event_desc" sqlType="VARCHAR(100)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
-      <column name="event_location" sqlType="VARCHAR(30)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
-      <column name="event_dateTime" sqlType="DATETIME(3,2)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
-      <column name="event_photo" sqlType="VARCHAR(30)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
-      <column name="event_logo" sqlType="VARCHAR(30)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
-      <column name="artist_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+    <table name="event" schema="" catalog="" type="TABLE">
+      <column name="event_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="event_name" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="event_desc" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="event_location" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="event_date" sqlType="NUMERIC" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="event_photo" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="event_logo" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="event_artist" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
       <primary-key columns="event_id"/>
-    </table>
-    <table name="page_data" schema="" catalog="" type="TABLE">
-      <column name="page_title" sqlType="VARCHAR(30)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
-      <column name="page_id" sqlType="INT" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
-      <column name="page_main_content" sqlType="VARCHAR(100)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
-      <primary-key columns="page_title,page_id"/>
     </table>
     <table name="sqlite_sequence" schema="" catalog="" type="TABLE">
       <column name="name" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
       <column name="seq" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
     </table>
-    <table name="user_data" schema="" catalog="" type="TABLE">
-      <column name="user_name" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+    <table name="user" schema="" catalog="" type="TABLE">
       <column name="user_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
-      <column name="user_access_level" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
-      <column name="band_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
-      <column name="band_name" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
-      <column name="user_photo" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="user_name" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="user_accessLevel" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="user_artist" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="user_password" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
       <primary-key columns="user_id"/>
-      <exported-key name="#FAKE_bulletin_posts_1" table="bulletin_posts" schema="" catalog="" columns="user_id"/>
-      <exported-key name="#FAKE_bulletin_posts_2" table="bulletin_posts" schema="" catalog="" columns="user_name"/>
     </table>
   </data-source>
 </component>

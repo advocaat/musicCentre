@@ -177,7 +177,7 @@ elseif($_REQUEST['pageOption'] == "page" ){
     </div>
     <div id="footer">
         <?php
-            echo "<blockquote><>Townsville Community Music Center - 2015 &#169;</blockquote>";
+            echo "<blockquote>Townsville Community Music Center - 2015 &#169;</blockquote>";
         ?>
     </div>
 
