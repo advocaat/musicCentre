@@ -21,27 +21,41 @@
         // upadte pageOption to reflect table to be loaded
         echo '<script>document.getElementById("pageOption").value = "' . $_REQUEST["pageOption"] . '"</script>';
         
-        // selects whole table
-        $table = $dat->query('select * from ' . $_REQUEST['pageOption']);
-
-        // fetch and limit by associated columns
-        $result = $table->fetchAll(PDO::FETCH_ASSOC);
-
-        // create a table and tr for each record
         echo '<table>';
+        
+        // use pragma to fetch column names, even if table is empty
+        $table = $dat->query('pragma table_info(' . $_REQUEST['pageOption'] . ');');
+        $col = $table->fetchAll(PDO::FETCH_ASSOC);
+        $columns = Array();
+        
+        foreach ($col as $each){
+            array_push($columns, $each['name']);
+        }
+        
+        // create table headers from column names
+        echo '<tr>';
+        foreach ($columns as $each)
+            echo '<th>' . $each . '</th>';
+        echo '</tr>';
+        
+        // create blank row for adding new record
+        echo '<tr><form action="editRecord.php" method "POST">';
+        foreach ($columns as $each)
+            echo '<td><input name="' . $each . '"></input></td>';
+        echo '<input type="hidden" name="table" value="' . $_REQUEST['pageOption'] . '"></input>';
+        echo '<td><button type="submit" name="submit" value="add">Add</button></td></form></tr>';
+        
+        // select whole table
+        $select = $dat->query('select * from ' . $_REQUEST['pageOption']);
+        
+        // create a table and tr for each existing record
+        $result = $select->fetchAll(PDO::FETCH_ASSOC);
         foreach ($result as $row) {   
+                        
+            // create a new form for each row
             echo '<tr><form action="editRecord.php" method "POST">';
             
-            // create headers from column names first
-            if (empty($columns)) {
-                echo '<tr>';
-                $columns = array_keys($row);
-                foreach ($columns as $each)
-                    echo '<th>' . $each . '</th>';
-                echo '</tr>';
-            }
-            
-            // create an input field for each value in each row
+            // create an input field for each value in row
             foreach ($row as $i => $each) {
                 echo '<td><input name="' . $i . '" value="' . $each . '"></input></td>';
             }
