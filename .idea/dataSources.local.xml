@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="musiccentredb" uuid="8fedfa65-ebc0-486a-afa1-634762059c63" />
+    <data-source name="database.sqlite" uuid="4c451fe1-445c-46e9-9c7e-f1c59debf17d">
+      <secret-storage>master_key</secret-storage>
+    </data-source>
   </component>
 </project>

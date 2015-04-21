@@ -1,8 +1,7 @@
 <?php
-try{
-    $dat = new PDO("sqlite:musiccentredb.sqlite");
-}
-catch(PDOException $e){
+try {
+    $dat = new PDO("sqlite:database.sqlite");
+} catch (PDOException $e) {
     echo $e->getMessage();
 }
 ?>
