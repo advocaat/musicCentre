@@ -1,7 +1,7 @@
 <?php include("connectdb.php"); ?>
 <?php session_start(); ?>
 <?php
-
+//-----------------------------------------------Admin Logic-----------------------------------------------------
 // delete record
 if ($_REQUEST['submit'] == 'delete') {
     
@@ -55,8 +55,12 @@ else if ($_REQUEST['submit'] == 'add') {
     //header('Location: admin.php?pageOption='. $_REQUEST['table']);
 }
 
+//------------------------------------------------------Rego Logic---------------------------------------------------
+
 // new user registration
 else if ($_REQUEST['submit'] == 'register') {
+
+
 
     // test if email already registered
     $select = $dat->query('select 1 from user where user_email ="' . $_REQUEST['user_email'] . '"');
@@ -73,10 +77,14 @@ else if ($_REQUEST['submit'] == 'register') {
     // test passwords match
     else if ($_REQUEST['user_pass'] != $_REQUEST['confirm_pass']) {
         header('Location: registerModule.php?error=3');
+
+    //and if its a valid email
+    }else if(!filter_var($_REQUEST['user_email'], FILTER_VALIDATE_EMAIL )=== true){
+        header('Location: registerModule.php?error=4');
     }
 
     else {
-
+        $_REQUEST['user_pass'] = md5($_REQUEST['user_pass']);
         $fields = array();
         $values = array();
 
@@ -108,11 +116,13 @@ else if ($_REQUEST['submit'] == 'register') {
     }
 }
 
+
+//----------------------------------------------------Login Logic----------------------------------------------
 // user login
 else if ($_REQUEST['submit'] == 'login') {
 
     // get user info based on login
-    $select = $dat->query('select * from user where user_email = "' . $_REQUEST['user_email'] . '" and user_pass ="' . $_REQUEST['user_pass'] . '" limit 1');
+    $select = $dat->query('select * from user where user_email = "' . $_REQUEST['user_email'] . '" and user_pass ="' . md5($_REQUEST['user_pass']) . '" limit 1');
     $result = $select->fetch(PDO::FETCH_ASSOC);
 
     // set session variables
@@ -137,7 +147,52 @@ else if ($_REQUEST['submit'] == 'logout') {
     header('Location: index.php');
 }
 
+
+//----------------------------------------Reg Band-------------------------------------------------------
+
+if($_REQUEST['submit'] == 'reg_band'){
+
+
+        $fields = array();
+        $values = array();
+
+        // skip index key
+        next($_REQUEST);
+
+        // add keys and values to the arrays
+        foreach (array_slice($_REQUEST, 1, count($_REQUEST) - 3) as $value){
+
+
+            array_push($fields, key($_REQUEST));
+            array_push($values, $value);
+            next($_REQUEST);
+        }
+        array_push($fields, 'user_id');
+        array_push($values, $_SESSION['user_id']);
+
+        // implode arrays to build and execute insert query
+        $sql = 'insert into ' . $_REQUEST['table'] . ' ';
+        $sql .= '(' . implode(', ', $fields) . ') ';
+        $sql .= 'values ("' . implode('", "', $values) . '")';
+        $dat->exec($sql);
+
+        // return to homepage on successful registration
+        header('Location: index.php');
+}
+
+
+
 // close database
 $dat = null;
 
+//----------------------------------------------Terms----------------------------------------------------------
+if($_REQUEST['submit'] == "signup"){
+    if($_REQUEST['accept_terms']){
+        header("Location: registerBandModule.php" );
+    }
+    else{
+        header("Location: index.php");
+    }
+
+}
 ?>

@@ -13,6 +13,7 @@
 <ul>
     <li><a href="index.php">Home</a></li>
     <li><a href="registerModule.php">Register</a></li>
+    <li><a href="registerBandModule.php">Register Band</a></li>
 </ul>
 
 <?php include('loginModule.php'); ?>

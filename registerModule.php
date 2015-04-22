@@ -17,6 +17,9 @@
             if ($_REQUEST['error'] == '3') {
                 echo "<em>Passwords do not match.</em>";
             }
+            if ($_REQUEST['error'] == '4') {
+               echo "<em>Password is not considered valid</em>";
+            }
 
         } ?>
 

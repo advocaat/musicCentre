@@ -11,9 +11,7 @@
 <div>
     <h1>Administrator</h1>
 
-    <!-- include admin modules,
-        we can write something to load
-        them based on user access level -->
+    if($_SESSION['accessLevel'])
 
     <?php include('adminModule.php') ?>
 
