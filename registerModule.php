@@ -31,11 +31,8 @@
         $fields = array();
         $values = array();
 
-        // skip index key
-        next($_REQUEST);
-
         // add keys and values to the arrays
-        foreach (array_slice($_REQUEST, 1, count($_REQUEST) - 3) as $value) {
+        foreach (array_slice($_REQUEST, 0, count($_REQUEST) - 2) as $value) {
 
             // skip password confirmation field, we dont need it
             if (key($_REQUEST) == 'confirm_pass') {
@@ -57,8 +54,8 @@
         // return to homepage on successful registration
         header('Location: index.php');
     }
-
-} else { ?>
+}
+else { ?>
 
 <div id="registerModule">
     <fieldset>
@@ -66,28 +63,21 @@
 
         <!-- display registration errors -->
         <?php if (isset($_REQUEST['error'])) {
-
             if ($_REQUEST['error'] == '1') {
                 echo "<em>Email address is already registered.</em>";
             }
             if ($_REQUEST['error'] == '2') {
                 echo "<em>Passwords must be at least five characters.</em>";
-
             }
             if ($_REQUEST['error'] == '3') {
                 echo "<em>Passwords do not match.</em>";
             }
             if ($_REQUEST['error'] == '4') {
-               echo "<em>Password is not considered valid</em>";
+               echo "<em>Email is not valid.</em>";
             }
-
         } ?>
 
-        <form method="POST" action="processData.php">
-
-            <!-- arbitrary value for index will be ignored but must exist -->
-            <input type="hidden" name="user_id" value="">
-
+        <form method="POST">
             <table>
                 <tr>
                     <td><label for="user_email">Email Address</label></td>
@@ -142,5 +132,4 @@
         </form>
     </fieldset>
 </div>
-
 <?php } ?>
