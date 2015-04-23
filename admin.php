@@ -11,7 +11,7 @@
 <div>
     <h1>Administrator</h1>
 
-    if($_SESSION['accessLevel'])
+     <!-- if($_SESSION['user_status']) - we'll add this later -->
 
     <?php include('adminModule.php') ?>
 

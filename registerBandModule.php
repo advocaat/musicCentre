@@ -1,6 +1,8 @@
 <?php include('connectdb.php');?>
 <?php session_start(); ?>
 
+<?php ECHO $_SESSION['user_id']; ?>
+
 <?php
       if(!isset($_SESSION['userLoggedIn'])){
             echo "<script>(function(){alert('You must be logged in as a Registered User to perform this task.)'}());<script>";
@@ -17,6 +19,9 @@
 
 
             <form method='POST' action='processData.php'>
+
+            <input type="hidden" name="artist_id" value="">
+
             <p>
             <label for="artist_name">Band name</label>
             <input type="text" name="artist_name"  id="artist_name">
@@ -95,17 +100,32 @@
             </p><p>
             <label for="artist_photo">Band photo</label>
             <input type="text" name="artist_photo"  id="artist_photo">
-            </p><p>
-            <input type="radio" name="artist_contact"  id="this_email" checked="checked">
-            <label for="artist_contact">Use this email for notices</label>
-            </p><p>
-            <input type="radio" name="artist_contact"  id="that_email">
-            <label for="artist_contact">Use my user email for notices</label>
-            </p><p>
-            <button type='submit' name='submit' value='reg_band'>Register Band</button>
             </p>
-            <input type="hidden" name="table" value="artist">
-            <input type="hidden" name="featured" value="false">
+
+                <input type="hidden" name="artist_featured" value="false">
+
+                <p>
+
+
+            <input type="radio" name="artist_contact"  id="this_email" checked="checked" value="artistEmail">
+            <label for="artist_contact">Use this email for notices</label>
+            </p>
+                <p>
+            <input type="radio" name="artist_contact"  id="that_email" value="userEmail">
+            <label for="artist_contact">Use my user email for notices</label>
+            </p>
+
+
+                <input type="hidden" name="user_id" value="<?php echo $_SESSION['user_id']; ?>">
+                <input type="hidden" name="table" value="artist">
+
+                <p>
+
+                    <button type='submit' name='submit' value='reg_band'>Register Band</button>
+            </p>
+
+
+
             </form>
         </fieldset>
 

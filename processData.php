@@ -128,6 +128,7 @@ else if ($_REQUEST['submit'] == 'login') {
     // set session variables
     if (boolval($result)) {
         $_SESSION['userLoggedIn'] = true;
+        $_SESSION['user_id'] = $result['user_id'];
         $_SESSION['user_firstname'] = $result['user_firstname'];
         $_SESSION['user_status'] = $result['user_status'];
 
@@ -167,8 +168,6 @@ if($_REQUEST['submit'] == 'reg_band'){
             array_push($values, $value);
             next($_REQUEST);
         }
-        array_push($fields, 'user_id');
-        array_push($values, $_SESSION['user_id']);
 
         // implode arrays to build and execute insert query
         $sql = 'insert into ' . $_REQUEST['table'] . ' ';
