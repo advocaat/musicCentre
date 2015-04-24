@@ -116,39 +116,6 @@ else if ($_REQUEST['submit'] == 'register') {
     }
 }
 
-
-//----------------------------------------------------Login Logic----------------------------------------------
-// user login
-else if ($_REQUEST['submit'] == 'login') {
-
-    // get user info based on login
-    $select = $dat->query('select * from user where user_email = "' . $_REQUEST['user_email'] . '" and user_pass ="' . md5($_REQUEST['user_pass']) . '" limit 1');
-    $result = $select->fetch(PDO::FETCH_ASSOC);
-
-    // set session variables
-    if (boolval($result)) {
-        $_SESSION['userLoggedIn'] = true;
-        $_SESSION['user_id'] = $result['user_id'];
-        $_SESSION['user_firstname'] = $result['user_firstname'];
-        $_SESSION['user_status'] = $result['user_status'];
-
-        header('Location: index.php');
-    }
-
-    // login failed
-    else {
-        header('Location: index.php?error=login');
-    }
-
-}
-
-// user logout
-else if ($_REQUEST['submit'] == 'logout') {
-    session_destroy();
-    header('Location: index.php');
-}
-
-
 //----------------------------------------Reg Band-------------------------------------------------------
 
 if($_REQUEST['submit'] == 'reg_band'){
