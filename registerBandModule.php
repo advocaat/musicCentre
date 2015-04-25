@@ -136,7 +136,7 @@ if(isset($_REQUEST['submit'])){
             <label for="artist_email">Band email</label>
              <input type="text" name="artist_email"  id="artist_email">
             </p><p>
-            <label for="artist_website">Band website</label>
+            <label for="artist_website">Band website: http://www.</label>
             <input type="text" name="artist_website"  id="artist_website">
             </p><p>
             <label for="artist_photo">Band photo</label>
