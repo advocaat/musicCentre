@@ -1,14 +1,55 @@
 <?php include('connectdb.php');?>
 <?php session_start(); ?>
 
-<?php ECHO $_SESSION['user_id']; ?>
+
 
 <?php
       if(!isset($_SESSION['userLoggedIn'])){
-            echo "<script>(function(){alert('You must be logged in as a Registered User to perform this task.)'}());<script>";
+
             header("Location: noPermit.php");
         }
 ?>
+
+<?php
+
+if(isset($_REQUEST['submit'])){
+    if($_REQUEST['submit'] == 'reg_band'){
+
+
+        $fields = array();
+        $values = array();
+
+        // skip index key
+        next($_REQUEST);
+
+        // add keys and values to the arrays
+        foreach (array_slice($_REQUEST, 1, count($_REQUEST) - 3) as $value){
+
+
+            array_push($fields, key($_REQUEST));
+            array_push($values, $value);
+            next($_REQUEST);
+        }
+
+        // implode arrays to build and execute insert query
+        $sql = 'insert into ' . $_REQUEST['table'] . ' ';
+        $sql .= '(' . implode(', ', $fields) . ') ';
+        $sql .= 'values ("' . implode('", "', $values) . '")';
+        $dat->exec($sql);
+
+        // return to homepage on successful registration
+        header('Location: index.php');
+    }
+}
+
+?>
+
+
+
+
+
+
+
 
     <div id='bandRegisterModule'>
 
@@ -18,7 +59,7 @@
             <legend>Register an Act</legend>
 
 
-            <form method='POST' action='processData.php'>
+            <form method='POST' action='registerBandModule.php'>
 
             <input type="hidden" name="artist_id" value="">
 

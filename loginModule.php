@@ -5,6 +5,8 @@
 <?php if (isset($_REQUEST['submit'])) {
 
     // user login
+
+
     if ($_REQUEST['submit'] == 'login') {
 
             // get user info based on login
@@ -41,7 +43,18 @@ else {
 
     // check if user is already logged in
     if (isset($_SESSION['userLoggedIn'])) {
-        echo 'Welcome back, ' . $_SESSION['user_firstname'] . '<br />';
+
+        //format name for output
+        $name = strtolower($_SESSION['user_firstname']);
+        $chars = str_split($name);
+        $firstLetter = strtoupper($chars[0]);
+        $chars[0] = $firstLetter;
+        $name = implode($chars, '');
+
+        echo "<p>Logged in as: ".$name ."</p>";
+
+
+
         echo '<button type="submit" name="submit" value="logout">Logout</button>';
         echo '</form>';
         echo '</fieldset>';
@@ -62,7 +75,7 @@ else {
                     </tr>
                     <tr>
                         <td><label for="user_pass">Password</label></td>
-                        <td><input name="user_pass"></td>
+                        <td><input type="password" name="user_pass"></td>
                     </tr>
                 </table>
                 <button type="submit" name="submit" value="login">Login</button>

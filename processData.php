@@ -152,13 +152,5 @@ if($_REQUEST['submit'] == 'reg_band'){
 $dat = null;
 
 //----------------------------------------------Terms----------------------------------------------------------
-if($_REQUEST['submit'] == "signup"){
-    if($_REQUEST['accept_terms']){
-        header("Location: registerBandModule.php" );
-    }
-    else{
-        header("Location: index.php");
-    }
 
-}
 ?>

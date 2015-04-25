@@ -41,9 +41,9 @@
             }
 
             array_push($fields, key($_REQUEST));
-            array_push($values, $value);
-            next($_REQUEST);
-        }
+                     array_push($values, $value);
+                     next($_REQUEST);
+                 }
 
         // implode arrays to build and execute insert query
         $sql = 'insert into ' . $_REQUEST['table'] . ' ';
