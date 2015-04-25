@@ -1,4 +1,10 @@
 <?php
+session_start();
+if(!isset($_SESSION['userLoggedIn'])){
+    header("Location: noPermit.php");
+}
+
+
 include("connectdb.php");
 
 ?>
@@ -19,7 +25,6 @@ include("connectdb.php");
 
 
 <?php
-session_start();
 
 if(isset($_REQUEST['submit_bandEdit'])){
 

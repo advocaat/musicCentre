@@ -34,8 +34,8 @@
 
 <label for="artist_contact">Contact Me By:</label>
     <select name="artist_contact">
-        <option name="artist_contact" value="artistEmail">Band email account</option>
-        <option name="artist_contact" value="userEmail">My own email account</option>
+        <option name="artist_contact" value="true">Band email account</option>
+        <option name="artist_contact" value="false">My own email account</option>
     </select>
 
 
