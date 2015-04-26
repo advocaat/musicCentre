@@ -15,12 +15,13 @@
 	<!--Main Header-->
 <?php include("header.php"); ?>
     <!--Main Content-->
-
     <div id="log">
   <?php include('loginModule.php'); ?>
-     </div>
+      </div>
+    <div class="container">
 
-    <div class="container" >
+
+
    <?php include("sidenav.php");?>
        <!--actual page-->
 
@@ -28,7 +29,7 @@
        <br>
        <br>
        <br>
-<?php include("adminModule.php");?>
+<?php include("terms.php");?>
        <br>
        <br>
        <br>
@@ -40,9 +41,13 @@
        <!--end-->
     </div>
 
+    <!--Footer-->
+
+<?php include("footer.php"); ?>
 
 </body>
 </html>
+
 
 
 

@@ -53,9 +53,10 @@
     }
 }
 else { ?>
+
     <fieldset>
         <legend>Database Administration</legend>
-        <form action="adminModule.php" method="POST">
+        <form action="admin.php" method="POST">
             <select name="pageOption" id="pageOption">
                 <option value="artist">Artists</option>
                 <option value="bulletin">Bulletins</option>
@@ -139,7 +140,11 @@ else { ?>
                 echo '<button type="submit" name="submit" value="update">Update</button></td>';
                 echo '</form>';
                 echo '</tr>';
+
+
             }
+
         } ?>
     </fieldset>
+   
 <?php } ?>

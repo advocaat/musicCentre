@@ -20,32 +20,40 @@
   <?php include('loginModule.php'); ?>
      </div>
 
-    <div class="container" >
+    <div class="container">
    <?php include("sidenav.php");?>
        <!--actual page-->
-
-       <br>
-       <br>
-       <br>
-       <br>
-<?php include("adminModule.php");?>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-
-
+<br>
+<br>
+<?php include("bandEditModule.php"); ?>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
        <!--end-->
     </div>
 
+    <!--Footer-->
 
-</body>
-</html>
-
-
-
+<?php include("footer.php"); ?>
 
 </body>
 </html>

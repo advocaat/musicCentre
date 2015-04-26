@@ -1,5 +1,5 @@
 <?php include('connectdb.php');?>
-<?php session_start(); ?>
+
 
 
 
@@ -51,7 +51,7 @@ if(isset($_REQUEST['submit'])){
 
 
 
-    <div id='bandReg'>
+
 
 
         <h1>Band Registration</h1>

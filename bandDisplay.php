@@ -7,10 +7,8 @@ $select = $dat->query($sql);
 
 $result = $select->fetchAll(PDO::FETCH_ASSOC);
 
-
+$count = 0;
 foreach($result as $row){
-
-
 
 
 
@@ -30,7 +28,7 @@ foreach($result as $row){
        $featured = $row['artist_featured'];
 
 
-echo '<div id="display" width="200" height="200" style="border:1px solid #655876">';
+echo '<div id="display" class="col-narrow" width="200" height="200" style="border:1px solid #655876">';
 echo '<h3>'.$name.'</h3>';
 echo '<a href="index.php"><img src="' . $photo .'" width="100" height="100" class="photo" ></a>';
 echo '<p><em>Genre:</em> '.$genre.'<p>';

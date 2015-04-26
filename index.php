@@ -37,7 +37,7 @@
             <img src="images/old-music.jpg" width="100%">
         </div>
         <div class="col-full clear">
-            <p>More history on the Music Centre can be found <a href="history.html">HERE</a></p>
+            <p>More history on the Music Centre can be found <a href="history.php">HERE</a></p>
         </div>
     </div>
 

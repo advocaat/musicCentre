@@ -20,7 +20,7 @@
   <?php include('loginModule.php'); ?>
      </div>
 
-    <div class="container" >
+    <div class="container">
    <?php include("sidenav.php");?>
        <!--actual page-->
 
@@ -28,7 +28,7 @@
        <br>
        <br>
        <br>
-<?php include("adminModule.php");?>
+<?php include("registerBandModule.php");?>
        <br>
        <br>
        <br>
@@ -40,6 +40,9 @@
        <!--end-->
     </div>
 
+    <!--Footer-->
+
+<?php include("footer.php"); ?>
 
 </body>
 </html>

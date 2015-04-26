@@ -1,6 +1,6 @@
 <?php
     include("connectdb.php");
-    session_start();
+
 ?>
 
 <?php
@@ -10,7 +10,7 @@
         if(isset($_REQUEST['submit'])){
             if($_REQUEST['submit'] == "signup"){
                 if($_REQUEST['accept_terms'] == "on") {
-                    header("Location: registerBandModule.php" );
+                    header("Location: registerband.php" );
 
 
                 }
@@ -25,7 +25,7 @@
     ?>
 
 
-<div id="termsAndConds">
+
     <h1>Terms and Conditions</h1>
     <p>Termer termly term terminator termite.</p><p> Conditioner conditioning conditionallly conditions</p>
 
@@ -37,4 +37,3 @@
     <button type="submit" name="submit" id="submit" value="signup">Continue</button>
     </form>
 
-<div>

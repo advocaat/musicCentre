@@ -5,7 +5,7 @@
         	<div id="menu">
         		<ul>
             		<li><img src="images/disc.png" class="navIcon"><a href="index.php" id="a0">Home </a></li>
-            		<li id="a1"><img src="images/speaker.png" class="navIcon"><a href="events.php" id="a1">Events </a></li>
+            		<li><img src="images/speaker.png" class="navIcon"><a href="events.php" id="a1">Events </a></li>
             		<li><img src="images/deck.png" class="navIcon" ><a href="artists.php" id="a2">Artists </a></li>
                 	<li><img src="images/sheet.png" class="navIcon"><a href="members.php" id="a3">Members </a></li>
             		<li><img src="images/mic.png" class="navIcon"><a href="contact.php"  id="a4">Contact </a></li>
