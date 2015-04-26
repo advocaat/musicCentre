@@ -6,7 +6,7 @@
 <?php
       if(!isset($_SESSION['userLoggedIn'])){
 
-            header("Location: noPermit.php");
+            header("Location: sorry.php");
         }
 ?>
 

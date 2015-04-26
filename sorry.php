@@ -23,34 +23,7 @@
     <div class="container">
    <?php include("sidenav.php");?>
        <!--actual page-->
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+   <?php include("noPermit.php");?>
        <!--end-->
     </div>
 

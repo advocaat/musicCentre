@@ -9,21 +9,21 @@
     $select = $dat->query('select 1 from user where user_email ="' . $_REQUEST['user_email'] . '"');
     $test = $select->fetch();
     if ($test != 0) {
-        header('Location: registerModule.php?error=1');
+        header('Location: register.php?error=1');
     }
 
     // test if password is long enough
     else if (strlen($_REQUEST['user_pass']) < 5) {
-        header('Location: registerModule.php?error=2');
+        header('Location: register.php?error=2');
     }
 
     // test passwords match
     else if ($_REQUEST['user_pass'] != $_REQUEST['confirm_pass']) {
-        header('Location: registerModule.php?error=3');
+        header('Location: register.php?error=3');
 
     //and if its a valid email
     }else if(!filter_var($_REQUEST['user_email'], FILTER_VALIDATE_EMAIL )=== true){
-        header('Location: registerModule.php?error=4');
+        header('Location: register.php?error=4');
     }
 
     else {

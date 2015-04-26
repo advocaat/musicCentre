@@ -16,9 +16,7 @@
 <?php include("header.php"); ?>
     <!--Main Content-->
 
-    <div class="log">
-  <?php include('loginModule.php'); ?>
-     </div>
+
 
     <div class="container">
    <?php include("sidenav.php");?>

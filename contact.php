@@ -57,17 +57,6 @@
 
 
 
-<?php
-    if(isset($_REQUEST['update'])){
-        echo "<em>Table updated</em>";
-
-    }
-    if(isset($_REQUEST['error'])){
-        echo "<em>Problem updating account</em>";
-
-    }
-?>
-
 
 
 </body>
