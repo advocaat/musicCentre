@@ -1,5 +1,5 @@
 <!-- Database Admin Module -->
-
+<?php include("connectdb.php"); ?>
 <?php if (isset($_REQUEST['submit'])) {
 
     // delete record
@@ -55,7 +55,7 @@
 else { ?>
     <fieldset>
         <legend>Database Administration</legend>
-        <form action="admin.php" method="POST">
+        <form action="adminModule.php" method="POST">
             <select name="pageOption" id="pageOption">
                 <option value="artist">Artists</option>
                 <option value="bulletin">Bulletins</option>

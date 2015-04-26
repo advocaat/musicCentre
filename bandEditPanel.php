@@ -24,8 +24,8 @@
 <label for="artist_email">Email Contact</label>
 <input type="text" cols=30 name="artist_email" value=" <?php echo $result['artist_email']?>">
 </p><p>
-<label for="artist_website">Bands Website </label>
-<input type="text" cols=30 name="artist_website" value="<?php echo $result['artist_website'] ?>">
+<label for="artist_website">Bands Website http://www. </label>
+<input type="text" cols=30 name="artist_website" value="<?php echo $result['artist_website'] ?>">.com
 </p><p>
 <label for="artist_photo">Band Photo</label>
 <input type="text" cols=30 name="artist_photo" value="<?php echo $result['artist_photo'] ?>">

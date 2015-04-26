@@ -51,7 +51,7 @@ if(isset($_REQUEST['submit'])){
 
 
 
-    <div id='bandRegisterModule'>
+    <div id='bandReg'>
 
 
         <h1>Band Registration</h1>
@@ -137,7 +137,7 @@ if(isset($_REQUEST['submit'])){
              <input type="text" name="artist_email"  id="artist_email">
             </p><p>
             <label for="artist_website">Band website: http://www.</label>
-            <input type="text" name="artist_website"  id="artist_website">
+            <input type="text" name="artist_website"  id="artist_website">.com
             </p><p>
             <label for="artist_photo">Band photo</label>
             <input type="text" name="artist_photo"  id="artist_photo">

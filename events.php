@@ -1,0 +1,133 @@
+<?php session_start(); ?>
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Townsville Music | Home Page</title>
+<link href="normalize.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<!--Main Header-->
+<?php include("header.php"); ?>
+    <!--Main Content-->
+
+    <div id="log">
+  <?php include('loginModule.php'); ?>
+     </div>
+
+    <div class="container">
+   <?php include("sidenav.php");?>
+       <!--actual page-->
+        <div class="col-wide">
+               	<div class="event">
+                   <img src="images/artist-Harbourside.png" class="eventImage" alt="Harbourside-Duo">
+                   <table class="eventInfo">
+                   	<thead>
+                   	<tr>
+                           <th colspan="2"><a href="#">Harbourside Duo</a></th>
+                       </tr>
+                       </thead>
+                       <tbody>
+                       <tr>
+                       	<th>When:</th>
+                           <td>2PM Sunday 14th JUNE</td>
+                       </tr>
+                       <tr>
+                       	<th>Where:</th>
+                           <td>C2 Civic Theatre</td>
+                       </tr>
+                       <tr>
+                       	<th>Tickets:</th>
+                           <td>$25 Adult<br>$20 Concession<br>Kids under 12 Free</td>
+                       </tr>
+                       </tbody>
+                       <tfoot>
+                       <tr>
+                       	<td colspan="2"><a href="https://au.patronbase.com/_TVCC/Seats/NumSeats?prod_id=0782&perf_id=1&section_id=M&seat_type_id=S"><img src="images/ticketshop.png" alt="tickets"></a></td>
+                       </tr>
+                       </tfoot>
+                   </table>
+                   <table class="eventAbout">
+                       <tr>
+                       	<th>Dream Serenade</th>
+                           <td colspan="">Music of Debussy, Ravel, Faure, Sibelius and others.<br><em>March into Sommarhagen. Enjoy a spot of Lawn Tennis. Meet the Girl with Flaxen Hair. Dance the Habanera. Be seduced by Thais</em><br>Or just relax and let the music wash over you...</td>
+                       </tr>
+       			</table>
+                   </div>
+               	<div class="event">
+                   <img src="images/artist-Aviva.png" class="eventImage" alt="Aviva">
+                   <table class="eventInfo">
+                   	<thead>
+                   	<tr>
+                           <th colspan="2"><a href="#">Aviva Quartet</a></th>
+                       </tr>
+                       </thead>
+                       <tbody>
+                       <tr>
+                       	<th>When:</th>
+                           <td>2PM Sunday 17th MAY</td>
+                       </tr>
+                       <tr>
+                       	<th>Where:</th>
+                           <td>C2 Civic Theatre</td>
+                       </tr>
+                       <tr>
+                       	<th>Tickets:</th>
+                           <td>$25 Adult<br>$20 Concession<br>Kids under 12 Free</td>
+                       </tr>
+                       </tbody>
+                       <tfoot>
+                       <tr>
+                       	<td colspan="2"><a href="https://au.patronbase.com/_TVCC/Seats/NumSeats?prod_id=0782&perf_id=1&section_id=M&seat_type_id=S"><img src="images/ticketshop.png" alt="tickets"></a></td>
+                       </tr>
+                       </tfoot>
+                   </table>
+                   <table class="eventAbout">
+                       <tr>
+                       	<th>Aviva and Friends</th>
+                           <td colspan="">Grab your passport and travel with us to the Celtic Highlands and then step into the Bluegrass country in the heart of America!.
+       Join us for a toe tappin', soul searchin' journey as AVIVA makes it's way around the world on the first of our two globe trotting adventures! </td>
+                       </tr>
+       			</table>
+                   </div>
+       		</div>
+           </div>
+               <div class="col-narrow">
+       			<div class="locationMap">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3766.2480272026182!2d146.80922956728662!3d-19.271577306770148!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6bd5f92267e9596d%3A0x58cd8e35887d45e0!2sTownsville+Civic+Theatre!5e0!3m2!1sen!2sau!4v1430007183803" width="400" height="300"></iframe>
+                   </div>
+       		</div>
+
+
+       <!--end-->
+    </div>
+
+    <!--Footer-->
+
+<?php include("footer.php"); ?>
+
+</body>
+</html>
+
+
+
+<?php
+    if(isset($_REQUEST['update'])){
+        echo "<em>Table updated</em>";
+
+    }
+    if(isset($_REQUEST['error'])){
+        echo "<em>Problem updating account</em>";
+
+    }
+?>
+
+
+
+</body>
+</html>

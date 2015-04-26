@@ -29,7 +29,7 @@ a:active {
 	border-bottom:2px solid steelblue;
 }
 #navigation {
-	background-image:url(images/logo.png);
+	/*background-image:url(images/logo.png);*/
 	background-size:300px;
 	background-position:left bottom;
 	height:200px;
@@ -106,8 +106,6 @@ a:active {
     text-shadow: 0px 1px 0px #2F6627;
     background: linear-gradient(#ADD8E6, #4682B4) repeat scroll 0% 0% transparent;
 }
-
-
 
 
 
@@ -331,4 +329,68 @@ button {
 }
 .clear {
     clear: both;
+}
+
+/*<!---------adams ----->*/
+/* sidebar navigation */
+
+#nav{
+    position: absolute;
+    left: -10px;
+    background-color: rgba(0,0,255, 0.1 );
+    margin-top: -20px;
+    padding-right: 15px;
+}
+
+#nav li{
+    list-style-type: none;
+    margin-top: 5px;
+    text-align: center;
+    width: 12em;
+    border-radius: 5px;
+    border: 0px none;
+    color: #FFF;
+    text-shadow: 0px 1px 0px #2F6627;
+    background: linear-gradient(#ADD8E6, #4682B4) repeat scroll 0% 0% transparent;
+}
+#nav img{
+    margin-top: 30px;
+    margin-left: -30px;
+    margin-bottom: 60px;
+
+}
+#nav ul{
+   margin-bottom: 100px;
+
+}
+
+#log{
+    width: 7em;
+    margin-bottom: 20px;
+    position: absolute;
+    right: 140px;
+    font-size: smaller;
+
+}
+
+#log fieldset{
+
+    background-color: rgba(0,0,255, 0.1 );
+}
+
+#log button{
+
+
+    margin-top: 5px;
+    margin-left: 63px;
+    text-align: center;
+    width: 8em;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px none;
+    color: #FFF;
+    text-shadow: 0px 1px 0px #2F6627;
+    background: linear-gradient(#ADD8E6, #4682B4) repeat scroll 0% 0% transparent;
+
+
 }
