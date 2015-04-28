@@ -41,10 +41,7 @@ if($_REQUEST['submit_bandEdit'] = 'edit'){
     else{
         echo "<em>Mismatched combination</m>";
 
-
     }
-
-
 }
 
 }
