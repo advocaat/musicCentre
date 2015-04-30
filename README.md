@@ -20,8 +20,6 @@ CP1406/CP2010 Group Assignment
 - Access control
 - Header/Footer
 
-**Remove your .idea folder from git syncing if using Intelli J please!**
-
 Changelog
 =========
 
