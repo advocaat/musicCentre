@@ -25,7 +25,7 @@ CP1406/CP2010 Group Assignment
 Changelog
 =========
 
-# 29/04/15 - Jamie
+**29/04/15 - Jamie**
 
 - more elegant way to handle applying .active in header.php
 - move css to subfolder
