@@ -30,9 +30,14 @@
                 $select = $dat->query('select * from artist');
                 $result = $select->fetchAll(PDO::FETCH_ASSOC);
 
-                echo '<div class="row">';
-
+                $count = 1;
                 foreach($result as $row){
+
+                    // open div row
+                    if ($count == 1) {
+                        echo '<div class="row">';
+                    }
+
                     echo '<div class="col narrow artist">';
                     echo '<a href="artistDetail.php?artist_id='. $row["artist_id"] .'"><img src="' . $row['artist_photo'] .'">';
                     echo '<h3>'. $row["artist_name"] .'</h3></a>';
@@ -40,8 +45,21 @@
                     echo '<p>'. substr($row["artist_info"], 0, 99) .'...<br />';
                     echo '<a href="artistDetail.php?artist_id='. $row["artist_id"] .'">More info</a></p>';
                     echo '</div>';
-                } ?>
-                    </div>
+
+                    // close div row
+                    if ($count == 3) {
+                        echo '</div>';
+                        $count = 0;
+                    }
+                    $count +=1;
+
+                }
+
+                // close div row if didn't before
+                if ($count != 1) {
+                    echo '</div>';
+                }?>
+
             </div>
             <div id="sidebar" class="col narrow">
                 <?php include("sidebar.php");?>
