@@ -72,7 +72,7 @@ img {
 
 #header{
 	color:white;
-	background-image:url(../images/notestrip3.jpg);
+	background-image:url('../images/noteStrip3.jpg');
 	background-size:cover;
 	background-position:left;
 	border-bottom:2px solid steelblue;
@@ -116,7 +116,7 @@ img {
 	padding:5px;
 	text-align:center;
 	color:darkgray;
-	background-image:url(../images/notestrip3.jpg);
+	background-image:url('../images/noteStrip3.jpg');
 	background-size:cover;
 	background-position:top;
 }
