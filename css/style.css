@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+/* setup document ********************************************************/
+
+body {
+	line-height:150%;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+a:link {
+	color:steelblue;
+	text-decoration:none;
+}
+a:visited {
+	color:steelblue;
+}
+a:hover {
+	color:steelblue;
+	font-style:italic;
+}
+a:active {
+	text-decoration:none;
+}
+input {
+	width:100%;
+	padding: 5px;
+	color:black;
+	border: 3px solid white;
+	border-radius: 5px;
+	box-shadow: inset 0 1px 3px lightgray;
+}
+input:focus {
+
+	border: 3px solid lightblue;
+	box-shadow: inset 0 1px 2px lightgray;
+	outline:0;
+}
+input:hover {
+	border: 3px solid lightblue;
+}
+textarea {
+	width:100%;
+	padding: 5px;
+	color:black;
+	border: 3px solid white;
+	border-radius: 5px;
+	box-shadow: inset 0 1px 3px lightgray;
+}
+textarea:focus {
+
+	border: 3px solid lightblue;
+	box-shadow: inset 0 1px 2px lightgray;
+	outline:0;
+}
+textarea:hover {
+	border: 3px solid lightblue;
+}
+
+
+
+button {
+	text-align: center;
+	width: 6em;
+	border-radius: 5px;
+	border: 0px none;
+	color: #FFF;
+	text-shadow: 0px 1px 0px #2F6627;
+	background: linear-gradient(#ADD8E6, #4682B4) repeat scroll 0% 0% transparent;
+}
+img {
+	margin: 10px;
+}
+
+/* header & footer *******************************************************/
+
+#header{
+	color:white;
+	background-image:url(../images/notestrip3.jpg);
+	background-size:cover;
+	background-position:left;
+	border-bottom:2px solid steelblue;
+	overflow:hidden;
+}
+#navigation ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:right;
+}
+#navigation li {
+	display:inline;
+	float:left;
+	text-align:center;
+}
+#navigation a {
+	padding: 25px;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	font-size:large;
+	border-radius: 15px;
+}
+#navigation a:hover {
+	color:steelblue;
+	background-color:rgba(0,0,0, .5);
+}
+#navigation a.active {
+	color:steelblue;
+	background-color:rgba(0,0,0, .5);
+}
+.navIcon {
+	width:50px;
+	padding-top:25px;
+}
+#footer {
+	border-top:2px solid steelblue;
+	font-size:smaller;
+	padding:5px;
+	text-align:center;
+	color:darkgray;
+	background-image:url(../images/notestrip3.jpg);
+	background-size:cover;
+	background-position:top;
+}
+
+/* history *************************************************************/
+
+#historyTable {
+	width: 100%;
+}
+#historyTable td, th{
+	padding: 10px;
+	vertical-align: top;
+}
+
+/* artists *************************************************************/
+
+.artist {
+}
+.artist img {
+	width: 100%;
+	border-radius: 15px;
+}
+.artistFeature {
+	border: 1px solid lightgray;
+	border-radius: 15px;
+	margin: 20px 0 20px;
+}
+.artistFeature img {
+	max-width: 50%;
+	float: left;
+	border-radius: 15px;
+	margin: 20px 20px 20px 0;
+}
+.artistFull img {
+	max-width: 50%;
+	margin: 20px 20px 0 0;
+	float: left;
+	border-radius: 15px;
+}
+.artistMy table {
+	width: 100%;
+}
+.artistMy td {
+	padding: 10px;
+}
+.artistMy img {
+	max-height: 30px;
+	border-radius: 5px;
+}
+
+/* font adjustment classes ************************************************/
+.font-center{
+	text-align:center;
+}
+.font-left{
+	text-align:left;
+}
+.font-center{
+	text-align:right;
+}
+.font-justify{
+	text-align:justify;
+}
+.error {
+	color: red;
+}
+.success {
+	color: green;
+}
+
+/* columns ****************************************************************/
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+
+}
+.col {
+	padding: 0 20px;
+}
+.row .row {
+	margin: 0 -20px;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+.row:after {
+	clear: both;
+}
+
+
+@media only screen {
+	.col {
+		float: left;
+		width: 100%;
+
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.wide {
+		width: 66%;
+	}
+	.narrow {
+		width: 33%;
+	}
+	.half {
+		width: 50%;
+	}
+}

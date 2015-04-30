@@ -7,7 +7,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Townsville Music | Home Page</title>
-<link href="normalize.css" rel="stylesheet" type="text/css">
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -17,11 +17,11 @@
     <!--Main Content-->
 
     <div id="log">
-  <?php include('loginModule.php'); ?>
+  <?php include('moduleLogin.php'); ?>
      </div>
 
     <div class="container" >
-   <?php include("sidenav.php");?>
+   <?php include("moduleUserMenu.php");?>
        <!--actual page-->
 
        <br>

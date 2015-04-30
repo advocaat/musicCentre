@@ -1,28 +1,7 @@
-<?php session_start(); ?>
-
-
-<!doctype html>
-<html lang="en">
-
-<head>
-<meta charset="UTF-8">
-<title>Townsville Music | Home Page</title>
-<link href="normalize.css" rel="stylesheet" type="text/css">
-<link href="style.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-	<!--Main Header-->
 <?php include("header.php"); ?>
-    <!--Main Content-->
-
-    <div id="log">
-  <?php include('loginModule.php'); ?>
-     </div>
-
-    <div class="container">
-     <?php include("sidenav.php");?>
-   <div class="col-wide">
+<div class="container">
+    <div class="row">
+        <div id="main" class="col wide">
                <h1>Contact us</h1>
                <p>We'd love to hear from you!</p>
                <p>
@@ -39,25 +18,9 @@
                	<button type="submit">Send Message</button>
                </form>
            </div>
-           <div class="col-narrow">
-           	<div id="donate">
-               	<h3>Donate Here</h3>
-                   <p>Townsville Community Music Center is a registered <em>Deductible Gift Recipiant</em></p>
-                   <a href="https://www.paypal.com/au/cgi-bin/webscr?cmd=_flow&SESSION=WkGQVOwZ9FoJxWnt-yv5MXQ5jQXyKVm5LJtAiFPTqJ3Vd8sExDX3NIjkxHy&dispatch=5885d80a13c0db1f8e263663d3faee8d96f000117187ac9edec8a65b311f447e"><img src="images/Donate_Button.png" width="150px"></a>
-               </div>
-           </div>
+        <div id="sidebar" class="col narrow">
+            <?php include("sidebar.php");?>
+        </div>
     </div>
-
-    <!--Footer-->
-
+</div>
 <?php include("footer.php"); ?>
-
-</body>
-</html>
-
-
-
-
-
-</body>
-</html>

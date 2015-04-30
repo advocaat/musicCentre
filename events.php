@@ -1,29 +1,7 @@
-<?php session_start(); ?>
-
-
-<!doctype html>
-<html lang="en">
-
-<head>
-<meta charset="UTF-8">
-<title>Townsville Music | Home Page</title>
-<link href="normalize.css" rel="stylesheet" type="text/css">
-<link href="style.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-	<!--Main Header-->
 <?php include("header.php"); ?>
-    <!--Main Content-->
-
-    <div id="log">
-  <?php include('loginModule.php'); ?>
-     </div>
-
-    <div class="container">
-   <?php include("sidenav.php");?>
-       <!--actual page-->
-        <div class="col-wide">
+<div class="container">
+    <div class="row">
+        <div id="main" class="col wide">
                	<div class="event">
                    <img src="images/artist-Harbourside.png" class="eventImage" alt="Harbourside-Duo">
                    <table class="eventInfo">
@@ -96,26 +74,9 @@
        			</table>
                    </div>
        		</div>
-           </div>
-               <div class="col-narrow">
-       			<div class="locationMap">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3766.2480272026182!2d146.80922956728662!3d-19.271577306770148!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6bd5f92267e9596d%3A0x58cd8e35887d45e0!2sTownsville+Civic+Theatre!5e0!3m2!1sen!2sau!4v1430007183803" width="400" height="300"></iframe>
-                   </div>
-       		</div>
-
-
-       <!--end-->
+        <div id="sidebar" class="col narrow">
+            <?php include("sidebar.php");?>
+        </div>
     </div>
-
-    <!--Footer-->
-
+</div>
 <?php include("footer.php"); ?>
-
-</body>
-</html>
-
-
-
-
-</body>
-</html>

@@ -23,13 +23,13 @@ a:active {
 	height:200px;
 	color:white;
 	text-align:center;
-	background-image:url(images/notestrip3.jpg);
+	background-image:url(../images/notestrip3.jpg);
 	background-size:cover;
 	background-position:left;
 	border-bottom:2px solid steelblue;
 }
 #navigation {
-	/*background-image:url(images/logo.png);*/
+	/*background-image:url(../images/logo.png);*/
 	background-size:300px;
 	background-position:left bottom;
 	height:200px;
@@ -119,7 +119,7 @@ a:active {
 	height:auto;
 	color:darkgray;
 	text-align:center;
-	background-image:url(images/notestrip3.jpg);
+	background-image:url(../images/notestrip3.jpg);
 	background-size:cover;
 	background-position:top;
 }

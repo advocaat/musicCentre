@@ -1,39 +1,23 @@
-<!-- site header -->
-
+<?php session_start(); ?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Townsville Music Centre</title>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
     <div id="header">
-    	<div id="navigation">
-        	<div id="menu">
-        		<ul>
-            		<li><img src="images/disc.png" class="navIcon"><a href="index.php" id="a0">Home </a></li>
-            		<li><img src="images/speaker.png" class="navIcon"><a href="events.php" id="a1">Events </a></li>
-            		<li><img src="images/deck.png" class="navIcon" ><a href="artists.php" id="a2">Artists </a></li>
-                	<li><img src="images/sheet.png" class="navIcon"><a href="members.php" id="a3">Members </a></li>
-            		<li><img src="images/mic.png" class="navIcon"><a href="contact.php"  id="a4">Contact </a></li>
-            		 <?php
-                       $pos = ["index.php", "events.php", "artists.php", "members.php", "contact.php"];
-
-                        for($i = 0;  $i < 5; $i++){
-
-                          if (strpos($_SERVER['SCRIPT_NAME'],$pos[$i]) !== false ){
-
-                          ?>
-
-
-                       <script type="text/javascript">
-                           var t = "<?php echo $i; ?>";
-                         var thislink = document.getElementById('a'+ t);
-                         console.log(thislink);
-                         thislink.className = "active";
-                       </script>
-                       <?php
-                         }
-
-                       }
-                     ?>
-
-
-
-         		</ul>
- 	        </div>
+        <div class="container">
+            <div id="navigation" class="row col">
+                <ul>
+                    <li><img src="images/disc.png" class="navIcon"><a href="index.php" class="<?php echo ($_SERVER['PHP_SELF'] == "index.php" ? "active" : "");?>">Home </a></li>
+                    <li><img src="images/speaker.png" class="navIcon"><a href="events.php" class="<?php echo ($_SERVER['PHP_SELF'] == "events.php" ? "active" : "");?>">Events </a></li>
+                    <li><img src="images/deck.png" class="navIcon" ><a href="artists.php" class="<?php echo ($_SERVER['PHP_SELF'] == "artists.php" ? "active" : "");?>">Artists </a></li>
+                    <li><img src="images/sheet.png" class="navIcon"><a href="members.php" class="<?php echo ($_SERVER['PHP_SELF'] == "members.php" ? "active" : "");?>">Members </a></li>
+                    <li><img src="images/mic.png" class="navIcon"><a href="contact.php" class="<?php echo ($_SERVER['PHP_SELF'] == "contact.php" ? "active" : "");?>">Contact </a></li>
+                </ul>
+            </div>
         </div>
     </div>
