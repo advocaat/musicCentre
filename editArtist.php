@@ -4,7 +4,7 @@
             <div id="main" class="col wide">
 
                 <?php if(!isset($_SESSION['userLoggedIn']) || $_SESSION['user_status'] < 1){
-                    include('moduleNoAccess.php');
+                    include('moduleNoAccess.php?status=1');
                 } else {
 
                     // display any errors

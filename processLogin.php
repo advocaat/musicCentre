@@ -1,5 +1,4 @@
 <?php
-
     // user login
     if ($_REQUEST['submit'] == 'login') {
 
@@ -10,7 +9,7 @@
         $result = $select->fetch(PDO::FETCH_ASSOC);
 
         // set session variables
-        if (boolval($result)) {
+        if (!empty($result)) {
             session_start();
             $_SESSION['userLoggedIn'] = true;
             $_SESSION['user_id'] = $result['user_id'];
@@ -26,5 +25,6 @@
     }
 
     // return to previous page
-    header('Location: ' . $_SERVER['HTTP_REFERER']);
+    header('Location: index.php');
     exit;
+?>
