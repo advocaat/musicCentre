@@ -23,77 +23,25 @@
     </div><div class="container">
     <div class="row">
         <div id="main" class="col wide">
-               	<div class="event">
-                   <img src="images/artist-Harbourside.png" class="eventImage" alt="Harbourside-Duo">
-                   <table class="eventInfo">
-                   	<thead>
-                   	<tr>
-                           <th colspan="2"><a href="#">Harbourside Duo</a></th>
-                       </tr>
-                       </thead>
-                       <tbody>
-                       <tr>
-                       	<th>When:</th>
-                           <td>2PM Sunday 14th JUNE</td>
-                       </tr>
-                       <tr>
-                       	<th>Where:</th>
-                           <td>C2 Civic Theatre</td>
-                       </tr>
-                       <tr>
-                       	<th>Tickets:</th>
-                           <td>$25 Adult<br>$20 Concession<br>Kids under 12 Free</td>
-                       </tr>
-                       </tbody>
-                       <tfoot>
-                       <tr>
-                       	<td colspan="2"><a href="https://au.patronbase.com/_TVCC/Seats/NumSeats?prod_id=0782&perf_id=1&section_id=M&seat_type_id=S"><img src="images/ticketshop.png" alt="tickets"></a></td>
-                       </tr>
-                       </tfoot>
-                   </table>
-                   <table class="eventAbout">
-                       <tr>
-                       	<th>Dream Serenade</th>
-                           <td colspan="">Music of Debussy, Ravel, Faure, Sibelius and others.<br><em>March into Sommarhagen. Enjoy a spot of Lawn Tennis. Meet the Girl with Flaxen Hair. Dance the Habanera. Be seduced by Thais</em><br>Or just relax and let the music wash over you...</td>
-                       </tr>
-       			</table>
-                   </div>
-               	<div class="event">
-                   <img src="images/artist-Aviva.png" class="eventImage" alt="Aviva">
-                   <table class="eventInfo">
-                   	<thead>
-                   	<tr>
-                           <th colspan="2"><a href="#">Aviva Quartet</a></th>
-                       </tr>
-                       </thead>
-                       <tbody>
-                       <tr>
-                       	<th>When:</th>
-                           <td>2PM Sunday 17th MAY</td>
-                       </tr>
-                       <tr>
-                       	<th>Where:</th>
-                           <td>C2 Civic Theatre</td>
-                       </tr>
-                       <tr>
-                       	<th>Tickets:</th>
-                           <td>$25 Adult<br>$20 Concession<br>Kids under 12 Free</td>
-                       </tr>
-                       </tbody>
-                       <tfoot>
-                       <tr>
-                       	<td colspan="2"><a href="https://au.patronbase.com/_TVCC/Seats/NumSeats?prod_id=0782&perf_id=1&section_id=M&seat_type_id=S"><img src="images/ticketshop.png" alt="tickets"></a></td>
-                       </tr>
-                       </tfoot>
-                   </table>
-                   <table class="eventAbout">
-                       <tr>
-                       	<th>Aviva and Friends</th>
-                           <td colspan="">Grab your passport and travel with us to the Celtic Highlands and then step into the Bluegrass country in the heart of America!.
-       Join us for a toe tappin', soul searchin' journey as AVIVA makes it's way around the world on the first of our two globe trotting adventures! </td>
-                       </tr>
-       			</table>
-                   </div>
+            <h2>Upcoming Events!</h2>
+            <div class="row">
+                <hr>
+                <div class="col event"><img src="images/artist-Harbourside.png"><a href="artistDetail.php?artist_id=#"><h2>Harbourside Duo</h2></a>
+                    <h3><strong>Dream Serenade</strong></h3>
+                    <p><strong>When: </strong>2PM Sunday 14th June<br/><strong>Where: </strong>C2 Civic Theatre<br/><strong>Tickets: </strong>$25 Adult, $20 Concession, Kids under 12 Free<br></p>
+                    <p>Music of Debussy, Ravel, Faure, Sibelius and others. <em>March into Sommarhagen. Enjoy a spot of Lawn Tennis. Meet the Girl with Flaxen Hair. Dance the Habanera. Be seduced by Thais, Or just relax and let the music wash over you...</p><a href="#"><button type="submit" name="submit" value="login">Book Now!</button></a>
+                    </div>
+            </div>   	
+            <div class="row">
+                <hr>
+                <div class="col event"><img src="images/artist-Aviva.jpg"><a href="artistDetail.php?artist_id=#"><h2>Aviva Quartet</h2></a>
+                    <h3><strong>Aviva and Friends</strong></h3>
+                    <p><strong>When: </strong>2PM Sunday 17th May<br/><strong>Where: </strong>C2 Civic Theatre<br/><strong>Tickets: </strong>$25 Adult, $20 Concession, Kids under 12 Free<br></p>
+                    <p>Grab your passport and travel with us to the Celtic Highlands and then step into the Bluegrass country in the heart of America!.
+       Join us for a toe tappin', soul searchin' journey as AVIVA makes it's way around the world on the first of our two globe trotting adventures!</p><a href="#"><button type="submit" name="submit" value="login">Book Now!</button></a>
+                    </div>
+            </div>              
+
        		</div>
         <div id="sidebar" class="col narrow">
             <!-- login module -->

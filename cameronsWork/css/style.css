@@ -168,7 +168,18 @@ img {
 	max-height: 30px;
 	border-radius: 5px;
 }
+/* events *************************************************************/
 
+.event {
+
+	margin: 20px 0 20px;
+}
+.event img {
+	max-width: 50%;
+	float: left;
+	border-radius: 15px;
+	margin: 20px 20px 20px 0;
+}
 /* font adjustment classes ************************************************/
 .font-center{
 	text-align:center;
