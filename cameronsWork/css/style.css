@@ -200,6 +200,24 @@ img {
 	color: green;
 }
 
+/* bulletins **************************************************************/
+.CallMusos{text-align:left;
+}
+.Rouvas {text-align:left;
+}
+
+.boxed {
+	border: 1px solid lightgray;
+	border-radius: 15px;
+	margin: 20px 0 20px;
+}
+
+.boxed {
+	width: 100%;
+	border-radius: 15px;
+	margin:0;
+}
+
 /* columns ****************************************************************/
 
 .container {
