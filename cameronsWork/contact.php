@@ -63,6 +63,12 @@
         </form>
         <p>Not registered yet? <a href="editUser.php">Click here.</a></p>
         </div>
+            	<div id="donate">
+                    <hr>
+            	<h3>Donate Here</h3>
+                <p>Townsville Community Music Center is a registered <em>Deductible Gift Recipiant</em></p>
+                <a href="https://www.paypal.com/au/cgi-bin/webscr?cmd=_flow&SESSION=WkGQVOwZ9FoJxWnt-yv5MXQ5jQXyKVm5LJtAiFPTqJ3Vd8sExDX3NIjkxHy&dispatch=5885d80a13c0db1f8e263663d3faee8d96f000117187ac9edec8a65b311f447e"><img src="images/Donate_Button.png" width="150px"></a>
+            </div>
             </div>
     </div>
 </div>

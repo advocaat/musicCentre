@@ -23,17 +23,23 @@
     </div>    <div class="container">
         <div class="row">
             <div id="main" class="col wide font-justify">
-                <h2>Welcome to the TOWNSVILLE COMMUNITY MUSIC CENTRE!</h2>
-                <p>Based in Townsville, North Qld, the Music Centre presents concerts and workshops throughout the year, in a diverse range of genres including classical, jazz, folk, blues, world and contemporary music, featuring touring artists and locally-based professional and emerging artists. </p>
+                <h2>Are you <strong>NEW</strong> to Townsville?</h2>
+                                <img src="images/strand.gif" width="250px" align="right">
+                <p>Popular attractions include "The Strand", a long tropical beach and garden strip; Riverway, a riverfront parkland attraction located on the banks of Ross River; Reef HQ, a large tropical aquarium holding many of the Great Barrier Reef's native flora and fauna; the Museum of Tropical Queensland, built around a display of relics from the sunken British warship HMS Pandora; The Townsville Sports Reserve; and Magnetic Island, a large neighbouring island, the vast majority of which is national park.</p>
                 <hr>
-                <h2>2013 marked 30 years for the Music Centre!</h2>
-                <img src="images/30years.png" width="150px" align="right">
-                <p>It has been constantly changing over the years to keep up to date with the musical tastes and needs of the Townsville community. As part of the relocation of the Music Centre to the Civic Theatre, Bronia Renison and Jean Dartnall, both librarians, have assessed the old collection of sheet music, books and recorded music which the centre has been storing, unused, for many years. Sometimes older things have to be discarded to make way for the new, but the Music Centre is aware that older material may still have value. </p>
-                <p>The National Library of Australia has an online catalogue (TROVE) that lists not only its own holdings but also information about items held by many other libraries around Australia. Using this catalogue Bronia and Jean have identified at least 150 items of music that are not held by any of the country's major libraries. These items have been donated to the National Library to include in their collection and thus made available to all historians and musicians.</p>
-                <img src="images/old-music.jpg" width="200px" align="right">
-                <p>Also discovered in the old collection were some pieces relevant to North Queensland. Local musicians performed these at a musical social afternoon on Sunday April 21st in C2 at the Civic Theatre. The remaining sheet music, books and CDs were put on display and distributed free of charge to the local music community.</p>
+                <h2>The Music Scene in Townsville</h2>
+
+                <p>Townsville has a population of about 200,000 and is growing at about 1 suburb per year, so there is a lot of musical activity. All private schools and most government schools have music teachers. The larger private schools are Townsville Grammar, the Cathedral School and Ryan Catholic College. The larger public high schools are Kirwan and Pimlico.</p>
                 <hr>
-                <p>More history on the Music Centre can be found <a href="history.php">HERE</a></p>
+                <h2>Useful Contacts</h2>
+
+                <p>Music Teachers Association of Qld; The Townsville Branch<br>Ms Margery Jorgensen<br><strong>Phone: </strong>(07) 4779 0382<br><strong>Email: </strong>mjo11750@bigpond.net.au</p>
+                <p>Kodaly Music Education Institute of Australia<br><Strong>Website: </Strong><a href="http://www.kodaly.org.au">kodaly.org.au</a></p> 
+                <p>Some local businesses also employ or assist music teachers<br><a href="mailto:heather@thekeyboardshop.com.au">heather@thekeyboardshop</a><br><a href="http://www.artiesmusiconline.com.au">Arties Music</a></p>
+                <hr>
+                <h2>Busking</h2>
+                <p>Busking is permitted at several public spaces around the city with a Buskers Permit from the city council - phone 4727 9680.
+There is no age limit, but buskers 16 and under will need to be accompanied by a parent/guardian.</p>
             </div>
             <div id="sidebar" class="col narrow">
                 <!-- login module -->
@@ -60,19 +66,9 @@
         </form>
         <p>Not registered yet? <a href="editUser.php">Click here.</a></p>
         </div>
-
-
-
-    <!--Sponsors box-->
-    <div id="sponsors">
-        <hr>
-        <h3>Sponsors</h3>
-        <p><a href="http://www.townsville.gov.au">Townsville City Council</a></p>
-        <p><a href="http://www.townsville.gov.au"><img src="images/TCCLogo.gif" width="100px"></a></p>        
-        <p><a href="https://www.qld.gov.au">Queensland Government</a></p>        
-        <p><a href="https://www.qld.gov.au"><img src="images/qldgovtlogo.gif" width="100px"></a></p>
+                </div>
+        </div>
     </div>
-            </div>
     <div id="footer" class="container row col">
     	<p>&copy; 2015 Townsville Community Music Centre | Website designed by CivL</p>
     </div>
