@@ -72,9 +72,9 @@ img {
 
 #header{
 	color:white;
-	background-image:url('../images/noteStrip3.jpg');
+	background-image:url('../images/banner.jpg');
 	background-size:cover;
-	background-position:left;
+	background-position:top;
 	border-bottom:2px solid steelblue;
 	overflow:hidden;
 }
@@ -108,7 +108,8 @@ img {
 }
 .navIcon {
 	width:50px;
-	padding-top:25px;
+	padding-top:15px;
+    margin-bottom: -5px;
 }
 #footer {
 	border-top:2px solid steelblue;
