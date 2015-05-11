@@ -188,6 +188,28 @@ img {
 	color: green;
 }
 
+/* bulletins *************************************************************/
+.BulletinItem{
+	border:solid;
+	border-width: 2px;
+	padding: 10px;
+	
+}
+
+.BulletinItem img{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	
+}
+
+.BulletinItem h2 {
+	margin-top: 0;
+}
+
+
+
+
 /* columns ****************************************************************/
 
 .container {
