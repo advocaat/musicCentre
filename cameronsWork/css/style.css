@@ -200,22 +200,23 @@ img {
 	color: green;
 }
 
-/* bulletins **************************************************************/
-.CallMusos{text-align:left;
-}
-.Rouvas {text-align:left;
-}
-
-.boxed {
-	border: 1px solid lightgray;
-	border-radius: 15px;
-	margin: 20px 0 20px;
+/* bulletins *************************************************************/
+.BulletinItem{
+	border:solid;
+	border-width: 2px;
+	padding: 10px;
+	
 }
 
-.boxed {
-	width: 100%;
-	border-radius: 15px;
-	margin:0;
+.BulletinItem img{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	
+}
+
+.BulletinItem h2 {
+	margin-top: 0;
 }
 
 /* columns ****************************************************************/
