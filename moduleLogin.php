@@ -1,8 +1,6 @@
 <!-- login module -->
 <div id="login">
 
-    <!-- this code needs to removed after marking of m1 -->
-    <p>Hi Kim! You will need to login to test adding, editing and removing of artists. Use the email: <strong>member@email.com</strong> and password: <strong>password</strong>.</p>
 
     <h3>Login</h3>
     <form method="post" action="processLogin.php">

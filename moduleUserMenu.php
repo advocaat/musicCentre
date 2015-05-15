@@ -11,9 +11,9 @@
                 echo "<li><a href ='editArtist.php'>Create or update your artist details</a></li>";
             } ?>
             <?php if($_SESSION['user_status'] === '2'){
-                echo "<li><a href ='admin.php'>Create or edit an event</a></li>";
+                echo "<li><a href ='editArtist.php'>Create or edit an event</a></li>";
             } ?>
-            <?php if($_SESSION['user_status'] === '2'){
+            <?php if($_SESSION['user_status'] === '3'){
                 echo "<li><a href ='admin.php'>Administration</a></li>";
             } ?>
         </ul>

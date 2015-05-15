@@ -27,7 +27,7 @@
                 }
 
                 // select everything but featured artist (to do)
-                $select = $dat->query('select * from artist');
+                $select = $dat->query('select * from artist where artist_featured = "false"');
                 $result = $select->fetchAll(PDO::FETCH_ASSOC);
 
                 $count = 1;

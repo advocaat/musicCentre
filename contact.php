@@ -11,10 +11,10 @@
                    <span class=""></span><a href="mailto:admin@townsvillemusic.org.au">admin@townsvillemusic.org.au</a>
                </p>
                <form class="font-center">
-                   <input type="text" class="input" placeholder="Your Name" id="namefield" autoficus/>
+                   <input type="text" class="input" placeholder="Your Name" id="namefield">
                    <input type="text" class="input" placeholder="Phone Number"/>
                    <input type="text" class="input" placeholder="Email Address"/>
-                   <textarea readonly rows="6" class="input" placeholder="Your Message"></textarea>
+                   <textarea rows="6" class="input" placeholder="Your Message"></textarea>
                	<button type="submit">Send Message</button>
                </form>
            </div>
