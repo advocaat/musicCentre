@@ -14,7 +14,6 @@ CP1406/CP2010 Group Assignment
 - Passwords : password
 
 **Still To To**
-- Photo Upload
 - Limit bulletin display by one month
 - Limit event display by date
 - Add comments to bulletinDetail.php ?
