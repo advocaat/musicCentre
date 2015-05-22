@@ -1,7 +1,7 @@
 <?php include("header.php"); ?>
     <div class="container">
         <div class="row">
-            <div id="main" class="col wide font-justify">
+            <div id="main" class="col wide">
                 <h2>Welcome to the MUSIC CENTRE!</h2>
                 <p>Based in Townsville, North Qld, the Music Centre presents concerts and workshops throughout the year, in a diverse range of genres including classical, jazz, folk, blues, world and contemporary music, featuring touring artists and locally-based professional and emerging artists. </p>
                 <hr>

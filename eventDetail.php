@@ -18,8 +18,8 @@
                 echo 'Where: '. $result['event_location'] .'<br/>';
                 echo 'Tickets: '. $result['event_tickets'] .'<br/>';
                 echo 'Concession: '. $result['event_concession'] .'<br/>';
-                echo '<p>'. $result['event_info'] .'</p>';
-                echo '<p><a href="'. $result['event_link'] .'">Buy Tickets</a></p>';
+                echo '<p>'. nl2br($result['event_info']) .'</p>';
+                echo '<p><a href="'. $result['event_link'] .'" target="_blank">Buy Tickets</a></p>';
                 ?>
 
             </div>

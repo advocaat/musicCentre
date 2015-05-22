@@ -19,11 +19,8 @@
                     echo '<p><strong>'. $featured["artist_genre"] .'</strong></p>';
                     echo '<p>Phone: '. $featured["artist_phone"] .'<br/>';
                     echo 'Email: '. $featured["artist_email"] .'<br/>';
-                    $website = "http://www.". str_replace('www.','', $featured['artist_website']);
-                    if(filter_var($website, FILTER_VALIDATE_URL)){
-                        echo 'Website: <a href="'. $website.'">'. $website.'</a></p>';
-                    }
-                    echo '<p>'. substr($featured["artist_info"], 0, 399) .'...<br />';
+                    echo 'Website: <a href="'. $featured['artist_website'] .'">'. $featured['artist_website'] .'</a></p>';
+                    echo '<p>'. substr($featured["artist_info"], 0, 249) .'...<br />';
                     echo '<a href="artistDetail.php?artist_id='. $featured['artist_id'] .'">More Info</a></p>';
                     echo '</div>';
                 }

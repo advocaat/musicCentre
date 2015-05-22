@@ -9,7 +9,11 @@
 
                 <?php include("connectdb.php");
 
-                $results = $dat->query("select * from bulletin");
+                // select only bulletins within the last month
+                $today = date('Y-m-d');
+                $lastmonth = date('Y-m-d', mktime(0, 0, 0, date("m")-1, date("d"),   date("Y")));
+
+                $results = $dat->query('select * from bulletin where bulletin_date between "'. $lastmonth .'" and "'.$today .'" order by bulletin_id desc');
 
                 foreach($results as $result) {
                     echo '<div class="row">';
@@ -17,7 +21,7 @@
                     echo '<img src="' . $result['bulletin_photo'] .'">';
                     echo '<a href="bulletinDetail.php?bulletin_id='. $result['bulletin_id'] .'"><h2>'. $result['bulletin_title'] .'</h2></a>';
                     echo '<p><strong>Posted on ' . $result['bulletin_date'] . '</strong></p>';
-                    echo '<p>'. substr($result['bulletin_info'], 0, 399) .'...<br />';
+                    echo '<p>'. substr($result['bulletin_info'], 0, 249) .'...<br />';
                     echo '<a href="bulletinDetail.php?bulletin_id='. $result['bulletin_id'] .'">More Info</a></p>';
                     echo '</div></div>';
                 }

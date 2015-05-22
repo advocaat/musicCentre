@@ -122,7 +122,12 @@
         // use javascript to update the values of fields
         echo '<script type="text/javascript">';
         foreach (array_slice($result, 1, 7) as $i => $value) {
-            echo 'document.getElementById("' . $i . '").value = "' . $value . '";';
+
+            // fix line breaks
+            $value = nl2br($value);
+            $value = str_replace("\r\n",'',$value);
+            echo 'var text = "' . $value .'";';
+            echo 'document.getElementById("' . $i . '").value = text.replace(/<br \/>/ig,"\\n");';
             next($result);
         }
 

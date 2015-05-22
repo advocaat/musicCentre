@@ -15,12 +15,9 @@
                     echo '<a href="artistDetail.php?artist_id='. $artist["artist_id"] .'"><h2>'. $artist['artist_name'] .'</h2></a>';
                     echo '<p><strong>'. $artist["artist_genre"] .'</strong></p>';
                     echo '<p>Phone: '. $artist["artist_phone"] .'<br/>';
-                        echo 'Email: '. $artist["artist_email"] .'<br/>';
-                        $website = "http://www.". str_replace('www.','', $artist['artist_website']);
-                        if(filter_var($website, FILTER_VALIDATE_URL)){
-                        echo 'Website: <a href="'. $website.'">'. $website.'</a></p>';
-                    }
-                    echo '<p>'. $artist["artist_info"] .'</p>';
+                    echo 'Email: '. $artist["artist_email"] .'<br/>';
+                    echo 'Website: <a href="'. $artist['artist_website'] .'">'.  $artist['artist_website'] .'</a></p>';
+                    echo '<p>'. nl2br($artist["artist_info"]) .'</p>';
                 ?>
 
             </div>

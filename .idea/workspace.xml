@@ -1,476 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/members.php" line="9" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf86baf1-e07e-4114-9196-dc62e1943e93" name="Default" comment="fix things for usability testing.  general cleanup.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bulletins/1432255389Untitled-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bulletins/1432256002github.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bulletins/1432256882sqlite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/events/1432258106Oompahlogo600.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/events/1432258239jquery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/events/1432258248Oompahlogo600.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/artists/1432259636Celtic-Fyre-Wall-with-Fire8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/artists/1432260195DD600400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/artists/1432260385Wassa01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/artists/1432260459Harbourside.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/artists/1432260532AVIVA-LANE500.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/artists/1432260744Poms.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/artists/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bulletins/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/events/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/default.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editEvent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eventDetail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/processBulletin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/processEvent.php" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\admin.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\adminBulletinModule.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\bulletinModule.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\displayEventsModule.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\1431219464Computer texture green motherboard copper circuit free stock tech photo_800.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\1431219684Computer texture green motherboard copper circuit free stock tech photo_800.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\1431219724320494_445803278787814_1242956884_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\1431219751Grunge Texture ground stained concrete brown dirty wallpaper photo_800.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\1431219947TextureX Brushed Aluminum Metal Stock Aluminium Texture_800.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\1431220405jako.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\1431220419jako.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\1431220472jako.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\1431238284320494_445803278787814_1242956884_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\ACVCnewlogo.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\ACVCnewlogotrans.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\AVIVA-GROUND300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\AVIVA-GROUP216.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\AVIVA-GROUP300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\AVIVA-LANE300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\AVIVA-LANE500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\AVIVA-TREE300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\AVIVA-TREEcrop400.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\AYO-Flora-Wong.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\AYO150.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\AYOStQt300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Allegro600.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Allegro600BB.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Alyssa150200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\AndrewVeivers01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\AndrewVeivers02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Aquapella01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Aquapella360.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Attori-duo300168.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Attori-image-4.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Attori4w300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\AttoriDuo01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\AttoriKim+300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\AttoriKim01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\AvivaTheatre600.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\BlackCurtain.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Camerata.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\CamerataSingers600400.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Celtic-Fyre-Poster-300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Celtic-Fyre-Wall400354.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\CelticFyre2014300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\CelticFyre300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\CelticFyre800.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\CelticFyreLogo.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Chord Organ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Clapper55.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\DD600400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\DDmic200.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Donate_Button.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\DreamSerenade01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\EffortlessTechnique.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Eistlogosmall.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Email300350.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\FOTT.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\FOTT.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\FOTT.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Fanfare01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\FionaBlakely.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Garcia250.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\GreyBar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Harbourside.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Harbourside01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Harbourside300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Harmonious-LR.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Harmonious250.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Harmonious400.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\IngridJames01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\IngridJames02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\JCUlogo200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\JohnRouvas01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\KMEIAlogo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Kim150200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Latin-Fiesta-W.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\MIFNQ.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\MIFNQlogo150.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\MIFNQlogo300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\MoMconcert.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\MonM01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\MonM03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Moriya-Didjeridoo2W.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Moriya01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Pimlico-Symphony324.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\PimlicoTitle.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Pimlicobadgesm.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Pinks01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Pinks02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Poms.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Rosewood01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\SNBB1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\SilverBar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Siobhan01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Siobhan02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Siobhan03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Siobhan04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\SkySea.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\SoulofTango300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\StJosephs.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Stokes.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Swing300300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\SwingSerenade300350.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\SwingSerenadeFB.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\TCBSaxLogo800.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\TCBlogo160160.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\TCBlogo200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\TCBnotes460200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\TCBshirt.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\TCBshirt.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\TGO1114600.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\TGOlogo300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\TGOorch300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\TJCLogo200.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\TShop300web.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\TShop_full size.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\TomsTavern200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Townsville jazzclub logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\UOCcast.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Wassa01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\Website01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\YABHiRes.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\YABweb2013-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\YABweb50002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\ZieglerSax.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\aa-sml-grey.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\arrow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\arrowLeft.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\arrowRight.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\artisit-CelticFyre.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\artist-Aviva.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\artist-Aviva.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\artist-Harbourside.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\artist-Harbourside.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\artists\default.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\aviva01300300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\choomas.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\cover.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\deck.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\disc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\ebony01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\filburt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\flamenco.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\greybrick.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\jean01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\jean188.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\joinbutton.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\mic.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\more.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\movie-strip150.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\movies.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\movietexture.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\projector.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\sheet.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\somefiller.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\speaker.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\tcbsax200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\tgotrio300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\thumb1431219464Computer texture green motherboard copper circuit free stock tech photo_800.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\thumb1431219684Computer texture green motherboard copper circuit free stock tech photo_800.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\thumb1431219724320494_445803278787814_1242956884_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\thumb1431219751Grunge Texture ground stained concrete brown dirty wallpaper photo_800.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\thumb1431219947TextureX Brushed Aluminum Metal Stock Aluminium Texture_800.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\thumb1431220405jako.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\thumb1431220419jako.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\thumb1431220472jako.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\thumb1431238284320494_445803278787814_1242956884_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\ticketshop.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\ticketshop.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\tyto.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\vegas 1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\vegas 2.jpg" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\30yearslogo336.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/30yearslogo336.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\CIVIC C2 LOGO copy.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/CIVIC C2 LOGO copy.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\CIVIC C2 LOGO trans.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/CIVIC C2 LOGO trans.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\CIVIC C2 LOGO.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/CIVIC C2 LOGO.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\CIVIC C2 LOGO.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/CIVIC C2 LOGO.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\CIVIC C2 LOGO.psd" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/CIVIC C2 LOGO.psd" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\CivicFront200.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/CivicFront200.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\CivicFront300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/CivicFront300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\CivicFront500.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/CivicFront500.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\CivicFront600.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/CivicFront600.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\FBimages.psd" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/FBimages.psd" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\GCBF15091.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/GCBF15091.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\GCBF15091.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/GCBF15091.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\GCBF15091opaque.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/GCBF15091opaque.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\OLDGCBF15091.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/OLDGCBF15091.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\Parchment.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/Parchment.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\QG.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/QG.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\QN136100.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/QN136100.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\Qldlogo150169.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/Qldlogo150169.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\Qldlogo150169.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/Qldlogo150169.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\Qldlogo150169.psd" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/Qldlogo150169.psd" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\Qldlogo150169white.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/Qldlogo150169white.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\Qldlogo150200.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/Qldlogo150200.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\TCC83100.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/TCC83100.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\TCCcolour150193.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/TCCcolour150193.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\TCCgcbfQN100px.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/TCCgcbfQN100px.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\TCMC10067.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/TCMC10067.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\TCMC150100.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/TCMC150100.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\TCMC98Neg.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/TCMC98Neg.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\TCMC98Neg.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/TCMC98Neg.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\TCMCbanner.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/TCMCbanner.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\TCMCbanner01.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/TCMCbanner01.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\TCMCbannerExtract350100.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/TCMCbannerExtract350100.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\TCMCbannerExtract3501002.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/TCMCbannerExtract3501002.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\TCMCtrans10067.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/TCMCtrans10067.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\art-Qld_Logo_crest-620x349.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/art-Qld_Logo_crest-620x349.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\greybrick.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/greybrick.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\rosewoodgrain.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/rosewoodgrain.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\woodgrain.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/woodgrain.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\woodgrain.psd" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/woodgrain.psd" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\woodgrain13P01.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/woodgrain13P01.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\woodgrain13P02.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/woodgrain13P02.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\woodgrainOLD.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/woodgrainOLD.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\SiteImages\woodgrainlight.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/SiteImages/woodgrainlight.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\ACVCnewlogotrans.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/ACVCnewlogotrans.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\Chord Organ.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/Chord Organ.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\EffortlessTechnique.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/EffortlessTechnique.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\Eistlogosmall.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/Eistlogosmall.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\Fanfare01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/Fanfare01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\FionaBlakely.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/FionaBlakely.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\JohnRouvas01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/JohnRouvas01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\MonM01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/MonM01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\MonM03.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/MonM03.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\StJosephs.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/StJosephs.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\TCBlogo160160.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/TCBlogo160160.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\TCBshirt.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/TCBshirt.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\TCBshirt.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/TCBshirt.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\ZieglerSax.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/ZieglerSax.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\aa-sml-grey.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/aa-sml-grey.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\jean01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/jean01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\jean188.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/jean188.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\bulletin\tyto.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/bulletin/tyto.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\docs\Concert Information.pdf" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/docs/Concert Information.pdf" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\docs\GenInfo.txt" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/docs/GenInfo.txt" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\docs\Membership applic form 2015.doc" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/docs/Membership applic form 2015.doc" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\docs\Membership applic form2014.pdf" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/docs/Membership applic form2014.pdf" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\docs\Membership payment.pdf" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/docs/Membership payment.pdf" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\ACVCnewlogo.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/ACVCnewlogo.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\AVIVA-GROUND300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/AVIVA-GROUND300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\AVIVA-GROUP216.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/AVIVA-GROUP216.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\AVIVA-GROUP300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/AVIVA-GROUP300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\AVIVA-LANE300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/AVIVA-LANE300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\AVIVA-LANE500.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/AVIVA-LANE500.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\AVIVA-TREE300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/AVIVA-TREE300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\AVIVA-TREEcrop400.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/AVIVA-TREEcrop400.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\AYO-Flora-Wong.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/AYO-Flora-Wong.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\AYO150.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/AYO150.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\AYOStQt300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/AYOStQt300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Allegro600.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Allegro600.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Allegro600BB.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Allegro600BB.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Alyssa150200.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Alyssa150200.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\AndrewVeivers01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/AndrewVeivers01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\AndrewVeivers02.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/AndrewVeivers02.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Aquapella360.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Aquapella360.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Attori-duo300168.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Attori-duo300168.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Attori-image-4.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Attori-image-4.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Attori4w300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Attori4w300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\AttoriDuo01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/AttoriDuo01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\AttoriKim+300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/AttoriKim+300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\AttoriKim01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/AttoriKim01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\AvivaTheatre600.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/AvivaTheatre600.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\BlackCurtain.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/BlackCurtain.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\CamerataSingers600400.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/CamerataSingers600400.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Celtic-Fyre-Poster-300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Celtic-Fyre-Poster-300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Celtic-Fyre-Wall400354.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Celtic-Fyre-Wall400354.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\CelticFyre2014300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/CelticFyre2014300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\CelticFyre300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/CelticFyre300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\CelticFyreLogo.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/CelticFyreLogo.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Clapper55.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Clapper55.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\DD600400.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/DD600400.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\DDmic200.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/DDmic200.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\DreamSerenade01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/DreamSerenade01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Email300350.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Email300350.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\FOTT.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/FOTT.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\FOTT.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/FOTT.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\FOTT.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/FOTT.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Garcia250.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Garcia250.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\GreyBar.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/GreyBar.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Harbourside01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Harbourside01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Harbourside300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Harbourside300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Harmonious-LR.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Harmonious-LR.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Harmonious250.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Harmonious250.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Harmonious400.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Harmonious400.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\IngridJames01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/IngridJames01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\IngridJames02.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/IngridJames02.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\JCUlogo200.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/JCUlogo200.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\KMEIAlogo.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/KMEIAlogo.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Kim150200.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Kim150200.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Latin-Fiesta-W.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Latin-Fiesta-W.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\MIFNQ.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/MIFNQ.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\MIFNQlogo150.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/MIFNQlogo150.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\MIFNQlogo300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/MIFNQlogo300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\MoMconcert.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/MoMconcert.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Moriya-Didjeridoo2W.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Moriya-Didjeridoo2W.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Moriya01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Moriya01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Pimlico-Symphony324.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Pimlico-Symphony324.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\PimlicoTitle.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/PimlicoTitle.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Pimlicobadgesm.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Pimlicobadgesm.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Pinks01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Pinks01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Pinks02.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Pinks02.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\SilverBar.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/SilverBar.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Siobhan01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Siobhan01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Siobhan02.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Siobhan02.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Siobhan03.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Siobhan03.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Siobhan04.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Siobhan04.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\SkySea.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/SkySea.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\SoulofTango300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/SoulofTango300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Stokes.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Stokes.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Swing300300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Swing300300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\SwingSerenade300350.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/SwingSerenade300350.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\SwingSerenadeFB.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/SwingSerenadeFB.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\TCBlogo200.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/TCBlogo200.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\TCBnotes460200.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/TCBnotes460200.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\TGO1114600.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/TGO1114600.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\TGOlogo300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/TGOlogo300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\TGOorch300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/TGOorch300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\TJCLogo200.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/TJCLogo200.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\TShop300web.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/TShop300web.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\TShop_full size.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/TShop_full size.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\TicketShop.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/TicketShop.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\TomsTavern200.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/TomsTavern200.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Townsville jazzclub logo.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Townsville jazzclub logo.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\UOCcast.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/UOCcast.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\Website01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/Website01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\YABHiRes.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/YABHiRes.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\YABweb2013-02.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/YABweb2013-02.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\YABweb50002.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/YABweb50002.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\aviva01300300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/aviva01300300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\ebony01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/ebony01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\flamenco.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/flamenco.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\greybrick.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/greybrick.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\movie-strip150.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/movie-strip150.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\movies.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/movies.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\movietexture.gif" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/movietexture.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\projector.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/projector.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\tcbsax200.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/tcbsax200.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\tgotrio300.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/tgotrio300.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\vegas 1.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/vegas 1.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\events\vegas 2.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/events/vegas 2.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\musos\AVIVA-LANE500.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/musos/AVIVA-LANE500.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\musos\AVIVA-TREEcrop400.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/musos/AVIVA-TREEcrop400.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\musos\Aquapella01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/musos/Aquapella01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\musos\Camerata.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/musos/Camerata.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\musos\Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/musos/Celtic-Fyre-Wall-with-Fire8.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\musos\CelticFyre800.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/musos/CelticFyre800.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\musos\DD600400.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/musos/DD600400.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\musos\Harbourside.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/musos/Harbourside.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\musos\Poms.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/musos/Poms.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\musos\Rosewood01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/musos/Rosewood01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\musos\SNBB1.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/musos/SNBB1.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\musos\Stokes.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/musos/Stokes.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\musos\TCBSaxLogo800.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/musos/TCBSaxLogo800.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\musos\Wassa01.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/musos/Wassa01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\Avivarandom1.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/Avivarandom1.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\Avivarandom2.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/Avivarandom2.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\Avivarandom3.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/Avivarandom3.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\Avivarandom4.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/Avivarandom4.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\accordion.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/accordion.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\bass.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/bass.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\cello.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/cello.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\congas.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/congas.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\drums01.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/drums01.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\electric.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/electric.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\flamenco.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/flamenco.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\guitar.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/guitar.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\harmonica.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/harmonica.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\harp.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/harp.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\horn.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/horn.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\piano.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/piano.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\random1.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/random1.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\random2.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/random2.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\random3.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/random3.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\random4.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/random4.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\random5.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/random5.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\random6.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/random6.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\recorder.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/recorder.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\saxophone.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/saxophone.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\trumpet.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/trumpet.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\uke.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/uke.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC Images Docs\randomImages\violin.png" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/randomImages/violin.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\TCMC-Goals.txt" afterPath="$PROJECT_DIR$/.cameronsWork/TCMC-Goals.txt" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\artists.php" afterPath="$PROJECT_DIR$/.cameronsWork/artists.php" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\bulletins.php" afterPath="$PROJECT_DIR$/.cameronsWork/bulletins.php" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\contact.php" afterPath="$PROJECT_DIR$/.cameronsWork/contact.php" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\css\normalize.css" afterPath="$PROJECT_DIR$/.cameronsWork/css/normalize.css" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\css\style.css" afterPath="$PROJECT_DIR$/.cameronsWork/css/style.css" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\events.php" afterPath="$PROJECT_DIR$/.cameronsWork/events.php" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\feeder.php" afterPath="$PROJECT_DIR$/.cameronsWork/feeder.php" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\html\artists.html" afterPath="$PROJECT_DIR$/.cameronsWork/html/artists.html" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\html\banners.html" afterPath="$PROJECT_DIR$/.cameronsWork/html/banners.html" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\html\contact.html" afterPath="$PROJECT_DIR$/.cameronsWork/html/contact.html" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\html\events.html" afterPath="$PROJECT_DIR$/.cameronsWork/html/events.html" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\html\footer.html" afterPath="$PROJECT_DIR$/.cameronsWork/html/footer.html" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\html\header.html" afterPath="$PROJECT_DIR$/.cameronsWork/html/header.html" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\html\history.html" afterPath="$PROJECT_DIR$/.cameronsWork/html/history.html" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\html\index.html" afterPath="$PROJECT_DIR$/.cameronsWork/html/index.html" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\html\members.html" afterPath="$PROJECT_DIR$/.cameronsWork/html/members.html" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\30years.png" afterPath="$PROJECT_DIR$/.cameronsWork/images/30years.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\Donate_Button.png" afterPath="$PROJECT_DIR$/.cameronsWork/images/Donate_Button.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\TCCLogo.gif" afterPath="$PROJECT_DIR$/.cameronsWork/images/TCCLogo.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\arrow.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/images/arrow.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\arrowLeft.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/images/arrowLeft.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\arrowRight.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/images/arrowRight.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\artisit-CelticFyre.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/images/artisit-CelticFyre.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\artist-Aviva.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/images/artist-Aviva.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\artist-Aviva.png" afterPath="$PROJECT_DIR$/.cameronsWork/images/artist-Aviva.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\artist-Harbourside.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/images/artist-Harbourside.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\artist-Harbourside.png" afterPath="$PROJECT_DIR$/.cameronsWork/images/artist-Harbourside.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\artists\default.png" afterPath="$PROJECT_DIR$/.cameronsWork/images/artists/default.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\banner.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/images/banner.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\choomas.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/images/choomas.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\cover.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/images/cover.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\filburt.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/images/filburt.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\joinbutton.png" afterPath="$PROJECT_DIR$/.cameronsWork/images/joinbutton.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\logo.png" afterPath="$PROJECT_DIR$/.cameronsWork/images/logo.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\more.gif" afterPath="$PROJECT_DIR$/.cameronsWork/images/more.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\navIcons\artists.gif" afterPath="$PROJECT_DIR$/.cameronsWork/images/navIcons/artists.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\navIcons\bulletins.gif" afterPath="$PROJECT_DIR$/.cameronsWork/images/navIcons/bulletins.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\navIcons\contact.gif" afterPath="$PROJECT_DIR$/.cameronsWork/images/navIcons/contact.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\navIcons\events.gif" afterPath="$PROJECT_DIR$/.cameronsWork/images/navIcons/events.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\navIcons\home.gif" afterPath="$PROJECT_DIR$/.cameronsWork/images/navIcons/home.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\navIcons\members.gif" afterPath="$PROJECT_DIR$/.cameronsWork/images/navIcons/members.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\noteStrip3.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/images/noteStrip3.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\old-music.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/images/old-music.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\qldgovtlogo.gif" afterPath="$PROJECT_DIR$/.cameronsWork/images/qldgovtlogo.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\somefiller.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/images/somefiller.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\strand.gif" afterPath="$PROJECT_DIR$/.cameronsWork/images/strand.gif" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\ticketshop.jpg" afterPath="$PROJECT_DIR$/.cameronsWork/images/ticketshop.jpg" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\images\ticketshop.png" afterPath="$PROJECT_DIR$/.cameronsWork/images/ticketshop.png" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\index.php" afterPath="$PROJECT_DIR$/.cameronsWork/index.php" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\members.php" afterPath="$PROJECT_DIR$/.cameronsWork/members.php" />
-      <change type="MOVED" beforePath="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\cameronsWork\plan.html" afterPath="$PROJECT_DIR$/.cameronsWork/plan.html" />
+    <list default="true" id="cf86baf1-e07e-4114-9196-dc62e1943e93" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/artists/1432293677Aquapella01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/artists/1432298911Stokes.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/artists/1432299634Camerata.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bulletins/1432300625JohnRouvas01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bulletins/1432300700StJosephs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bulletins/1432300737Roman01.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/events/1432300922AvivanF500 (1).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/events/1432301543FOTT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Donate_Button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bulletinDetail.php" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\musicCentre\images\artists\1432260459Harbourside.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\musicCentre\images\artists\1432260744Poms.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\musicCentre\images\artists\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\musicCentre\images\bulletins\1432255389Untitled-2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\musicCentre\images\bulletins\1432256002github.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\musicCentre\images\bulletins\1432256882sqlite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\musicCentre\images\bulletins\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\musicCentre\images\events\1432258239jquery.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\musicCentre\images\events\1432258248Oompahlogo600.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\musicCentre\images\events\Thumbs.db" afterPath="" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\musicCentre\images\artists\1432259636Celtic-Fyre-Wall-with-Fire8.jpg" afterPath="$PROJECT_DIR$/images/artists/1432299518Celtic-Fyre-Wall-with-Fire8 (1).jpg" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\musicCentre\images\artists\1432260195DD600400.png" afterPath="$PROJECT_DIR$/images/artists/1432299701DD600400.png" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\musicCentre\images\artists\1432260385Wassa01.jpg" afterPath="$PROJECT_DIR$/images/artists/1432299742Wassa01.jpg" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\musicCentre\images\artists\1432260532AVIVA-LANE500.jpg" afterPath="$PROJECT_DIR$/images/artists/1432299801AVIVA-LANE500.jpg" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\musicCentre\images\events\1432258106Oompahlogo600.png" afterPath="$PROJECT_DIR$/images/events/1432301450Oompahlogo600.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database.sqlite" afterPath="$PROJECT_DIR$/database.sqlite" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artistDetail.php" afterPath="$PROJECT_DIR$/artistDetail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artists.php" afterPath="$PROJECT_DIR$/artists.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulletins.php" afterPath="$PROJECT_DIR$/bulletins.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/contact.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editArtist.php" afterPath="$PROJECT_DIR$/editArtist.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editBulletin.php" afterPath="$PROJECT_DIR$/editBulletin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editUser.php" afterPath="$PROJECT_DIR$/editUser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editEvent.php" afterPath="$PROJECT_DIR$/editEvent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eventDetail.php" afterPath="$PROJECT_DIR$/eventDetail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events.php" afterPath="$PROJECT_DIR$/events.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/members.php" afterPath="$PROJECT_DIR$/members.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moduleNoAccess.php" afterPath="$PROJECT_DIR$/moduleNoAccess.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moduleUserMenu.php" afterPath="$PROJECT_DIR$/moduleUserMenu.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processArtist.php" afterPath="$PROJECT_DIR$/processArtist.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processBulletin.php" afterPath="$PROJECT_DIR$/processBulletin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processEvent.php" afterPath="$PROJECT_DIR$/processEvent.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sidebar.php" afterPath="$PROJECT_DIR$/sidebar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -537,7 +112,99 @@
     <favorites_list name="webProgAss" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bulletinDetail.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bulletinDetail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5921325">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+              <folding>
+                <marker date="1432300393620" expanded="true" signature="322:365" placeholder="select * fro..bulletin..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/events.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+              <folding>
+                <marker date="1432301296719" expanded="true" signature="339:472" placeholder="select * fro..event..." />
+                <marker date="1432301296719" expanded="true" signature="1037:1084" placeholder="select artis..artist..." />
+                <marker date="1432301296719" expanded="true" signature="1929:1988" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="artists.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/artists.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+              <folding>
+                <marker date="1432301372510" expanded="true" signature="345:396" placeholder="select * fro..artist..." />
+                <marker date="1432301372510" expanded="true" signature="1509:1561" placeholder="select * fro..artist..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eventDetail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eventDetail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <marker date="1432301606664" expanded="true" signature="319:411" placeholder="select * fro..event..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sidebar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -550,7 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/registerModule.php" />
         <option value="$PROJECT_DIR$/processData.php" />
         <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/adminBulletinModule.php" />
@@ -573,7 +239,6 @@
         <option value="$PROJECT_DIR$/control/processUser.php" />
         <option value="$PROJECT_DIR$/connectdb.php" />
         <option value="$PROJECT_DIR$/moduleNoAccess.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/.html/changelog.txt" />
         <option value="$PROJECT_DIR$/history.php" />
         <option value="$PROJECT_DIR$/processUser.php" />
@@ -581,25 +246,27 @@
         <option value="$PROJECT_DIR$/cameronsWork/TCMC-Goals.txt" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/moduleLogin.php" />
-        <option value="$PROJECT_DIR$/contact.php" />
         <option value="$PROJECT_DIR$/bulletinModule.php" />
         <option value="$PROJECT_DIR$/displayEventsModule.php" />
         <option value="$PROJECT_DIR$/editUser.php" />
-        <option value="$PROJECT_DIR$/members.php" />
-        <option value="$PROJECT_DIR$/artistDetail.php" />
         <option value="$PROJECT_DIR$/moduleUserMenu.php" />
-        <option value="$PROJECT_DIR$/sidebar.php" />
-        <option value="$PROJECT_DIR$/events.php" />
-        <option value="$PROJECT_DIR$/eventDetail.php" />
+        <option value="$PROJECT_DIR$/contact.php" />
+        <option value="$PROJECT_DIR$/members.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/editArtist.php" />
+        <option value="$PROJECT_DIR$/editEvent.php" />
         <option value="$PROJECT_DIR$/editBulletin.php" />
-        <option value="$PROJECT_DIR$/bulletins.php" />
+        <option value="$PROJECT_DIR$/processArtist.php" />
         <option value="$PROJECT_DIR$/processBulletin.php" />
         <option value="$PROJECT_DIR$/processEvent.php" />
-        <option value="$PROJECT_DIR$/editEvent.php" />
-        <option value="$PROJECT_DIR$/processArtist.php" />
-        <option value="$PROJECT_DIR$/editArtist.php" />
+        <option value="$PROJECT_DIR$/artistDetail.php" />
+        <option value="$PROJECT_DIR$/bulletins.php" />
+        <option value="$PROJECT_DIR$/bulletinDetail.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/events.php" />
         <option value="$PROJECT_DIR$/artists.php" />
+        <option value="$PROJECT_DIR$/eventDetail.php" />
+        <option value="$PROJECT_DIR$/sidebar.php" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -674,11 +341,11 @@
       <pane id="PackagesPane">
         <subPane />
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files" />
         <subPane subId="Default" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -692,7 +359,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="C:/xampp/php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.lastSelected" value="configurable.group.tools" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -707,11 +374,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\musicCentre" />
       <recent name="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre" />
       <recent name="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images\events" />
       <recent name="C:\xampp\htdocs\webProgAss\images" />
       <recent name="C:\Users\Jamieson\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre" />
-      <recent name="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\webProgAss\images" />
@@ -720,117 +387,6 @@
       <recent name="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre\images" />
       <recent name="C:\Users\jamie_000\OneDrive\JCU\CP2010 - Web Programming\Assignment 2\musicCentre" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cameronsWork/css/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cameronsWork/members.php</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1157,9 +713,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Unknown" factoryName="Unknown">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -1334,7 +887,10 @@
       <workItem from="1431671144567" duration="9546000" />
       <workItem from="1432104523527" duration="7677000" />
       <workItem from="1432246555657" duration="414000" />
-      <workItem from="1432247087274" duration="14209000" />
+      <workItem from="1432247087274" duration="14463000" />
+      <workItem from="1432263778949" duration="813000" />
+      <workItem from="1432274469822" duration="13287000" />
+      <workItem from="1432293115787" duration="8865000" />
     </task>
     <task id="LOCAL-00001" summary="update project info">
       <created>1429602828273</created>
@@ -1402,11 +958,23 @@
       <option name="project" value="LOCAL" />
       <updated>1430374582023</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix things for usability testing.  general cleanup.">
+      <created>1432261536303</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1432261536303</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix things for usability testing.  general cleanup.">
+      <created>1432261626256</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1432261626256</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275008000" />
+    <option name="totallyTimeSpent" value="298227000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1430,23 +998,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33193278" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897383" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967743" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997987" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897383" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1167002" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15052083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.128125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.146875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997987" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18389492" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1458,10 +1023,13 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897383" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997987" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997987" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -1493,7 +1061,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1502,6 +1070,90 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="130" selection-start-line="11" selection-start-column="130" selection-end-line="11" selection-end-column="130" />
+          <folding>
+            <marker date="1432301296719" expanded="true" signature="339:472" placeholder="select * fro..event..." />
+            <marker date="1432301296719" expanded="true" signature="1037:1084" placeholder="select artis..artist..." />
+            <marker date="1432301296719" expanded="true" signature="1929:1988" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1432298788471" expanded="true" signature="-1:-1" placeholder="select * fro..event..." />
+            <marker date="1432298788471" expanded="true" signature="-1:-1" placeholder="select * fro..event..." />
+            <marker date="1432298788471" expanded="true" signature="-1:-1" placeholder="select * fro..event..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <marker date="1432301296719" expanded="true" signature="339:472" placeholder="select * fro..event..." />
+            <marker date="1432301296719" expanded="true" signature="1037:1084" placeholder="select artis..artist..." />
+            <marker date="1432301296719" expanded="true" signature="1929:1988" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://DATABASE/4c451fe1-445c-46e9-9c7e-f1c59debf17d.schema:">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1634,18 +1286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.cameronsWork/TCMC Images Docs/musos/AVIVA-TREEcrop400.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="90" selection-start-line="13" selection-start-column="90" selection-end-line="13" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moduleLogin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39403972">
@@ -1660,23 +1300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.cameronsWork/feeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.cameronsWork/TCMC-Goals.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0816078">
-          <caret line="148" column="28" selection-start-line="148" selection-start-column="28" selection-end-line="148" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/editUser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.242353">
@@ -1684,69 +1307,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.cameronsWork/members.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9337474">
-          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/members.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4099379">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.cameronsWork/events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moduleUserMenu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3188406">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artistDetail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-          <folding>
-            <marker date="1432247756655" expanded="true" signature="-1:-1" placeholder="select * fro..artist..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.cameronsWork/artists.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7763975">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="86" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.cameronsWork/bulletins.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5217391">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="87" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1594203">
-          <caret line="7" column="98" selection-start-line="7" selection-start-column="98" selection-end-line="7" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1754,152 +1318,188 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding>
-            <marker date="1430205360512" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-            <marker date="1430205360512" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1430205360512" expanded="true" signature="-1:-1" placeholder="select * fro..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/members.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22774327">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36438924">
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/editEvent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <caret line="134" column="12" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="12" />
           <folding>
-            <marker date="1432258217165" expanded="true" signature="-1:-1" placeholder="select * fro..event..." />
-            <marker date="1432258217165" expanded="true" signature="-1:-1" placeholder="select * fro..artist..." />
+            <marker date="1432298788471" expanded="true" signature="-1:-1" placeholder="select * fro..event..." />
+            <marker date="1432298788471" expanded="true" signature="-1:-1" placeholder="select * fro..event..." />
+            <marker date="1432298788471" expanded="true" signature="-1:-1" placeholder="select * fro..event..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processEvent.php">
+    <entry file="file://$PROJECT_DIR$/processArtist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13457558">
-          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.1573499">
+          <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
           <folding>
-            <marker date="1432258025287" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1432258025287" expanded="true" signature="-1:-1" placeholder="update event..." />
-            <marker date="1432258025287" expanded="true" signature="-1:-1" placeholder="update event..." />
-            <marker date="1432258025287" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eventDetail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13664596">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1432249838556" expanded="true" signature="-1:-1" placeholder="select * fro..event..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6832298">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-          <folding>
-            <marker date="1432249774410" expanded="true" signature="-1:-1" placeholder="select * fro..event..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulletins.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1594203">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1432256531838" expanded="true" signature="-1:-1" placeholder="select * fro..bulletin..." />
+            <marker date="1432299323205" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1432299323205" expanded="true" signature="-1:-1" placeholder="update artis..." />
+            <marker date="1432299323205" expanded="true" signature="-1:-1" placeholder="update artis..." />
+            <marker date="1432299323205" expanded="true" signature="-1:-1" placeholder="select * fro..artist..." />
+            <marker date="1432299323205" expanded="true" signature="-1:-1" placeholder="delete from ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/editBulletin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="124" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.5217391">
+          <caret line="126" column="26" selection-start-line="126" selection-start-column="26" selection-end-line="126" selection-end-column="26" />
           <folding>
-            <marker date="1432255949216" expanded="true" signature="-1:-1" placeholder="select * fro..bulletin..." />
-            <marker date="1432255949216" expanded="true" signature="-1:-1" placeholder="select * fro..bulletin..." />
+            <marker date="1432298800325" expanded="true" signature="-1:-1" placeholder="select * fro..bulletin..." />
+            <marker date="1432298800325" expanded="true" signature="-1:-1" placeholder="select * fro..bulletin..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/processBulletin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="126" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.61490685">
+          <caret line="112" column="61" selection-start-line="112" selection-start-column="61" selection-end-line="112" selection-end-column="61" />
           <folding>
-            <marker date="1432256859496" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1432256859496" expanded="true" signature="-1:-1" placeholder="update bulle..." />
-            <marker date="1432256859496" expanded="true" signature="-1:-1" placeholder="update bulle..." />
-            <marker date="1432256859496" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1432299340024" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1432299340024" expanded="true" signature="-1:-1" placeholder="update bulle..." />
+            <marker date="1432299340024" expanded="true" signature="-1:-1" placeholder="update bulle..." />
+            <marker date="1432299340024" expanded="true" signature="-1:-1" placeholder="select * fro..bulletin..." />
+            <marker date="1432299340024" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66045547">
+          <caret line="44" column="61" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
+          <folding>
+            <marker date="1432299353061" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1432299353061" expanded="true" signature="-1:-1" placeholder="update event..." />
+            <marker date="1432299353061" expanded="true" signature="-1:-1" placeholder="update event..." />
+            <marker date="1432299353061" expanded="true" signature="-1:-1" placeholder="select * fro..event..." />
+            <marker date="1432299353061" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artistDetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4099379">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="72" />
+          <folding>
+            <marker date="1432299427235" expanded="true" signature="-1:-1" placeholder="select * fro..artist..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/editArtist.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5672878">
+          <caret line="130" column="26" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulletins.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="123" column="42" selection-start-line="123" selection-start-column="42" selection-end-line="123" selection-end-column="42" />
+          <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
           <folding>
-            <marker date="1432259647425" expanded="true" signature="-1:-1" placeholder="select * fro..artist..." />
-            <marker date="1432259647425" expanded="true" signature="-1:-1" placeholder="select * fro..artist..." />
+            <marker date="1432300207779" expanded="true" signature="-1:-1" placeholder="select * fro..bulletin..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/events.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
-          <folding />
+          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+          <folding>
+            <marker date="1432301296719" expanded="true" signature="339:472" placeholder="select * fro..event..." />
+            <marker date="1432301296719" expanded="true" signature="1037:1084" placeholder="select artis..artist..." />
+            <marker date="1432301296719" expanded="true" signature="1929:1988" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artists.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
           <folding>
-            <marker date="1432260088638" expanded="true" signature="-1:-1" placeholder="select * fro..artist..." />
-            <marker date="1432260088638" expanded="true" signature="-1:-1" placeholder="select * fro..artist..." />
+            <marker date="1432301372510" expanded="true" signature="345:396" placeholder="select * fro..artist..." />
+            <marker date="1432301372510" expanded="true" signature="1509:1561" placeholder="select * fro..artist..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/eventDetail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
-          <folding />
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1432301606664" expanded="true" signature="319:411" placeholder="select * fro..event..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/default.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processArtist.php">
+    <entry file="file://$PROJECT_DIR$/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.38716355">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulletinDetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5921325">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding>
-            <marker date="1432259223137" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1432259223137" expanded="true" signature="-1:-1" placeholder="update artis..." />
-            <marker date="1432259223137" expanded="true" signature="-1:-1" placeholder="update artis..." />
-            <marker date="1432259223137" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1432300393620" expanded="true" signature="322:365" placeholder="select * fro..bulletin..." />
           </folding>
         </state>
       </provider>

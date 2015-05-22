@@ -21,10 +21,13 @@
                     }
 
                     include("connectdb.php");
-                    $select = $dat->query('select * from event');
+
+                    // select only events that haven't already happened
+                    $today = date('Y-m-d');
+                    $select = $dat->query('select * from event where event_date >= "'. $today .'" order by event_date asc');
                     $events = $select->fetchAll(PDO::FETCH_ASSOC);
 
-                    // if no artists
+                    // if no events
                     echo '<div class="artistMy"><h2>Current Events</h2>';
                     if(empty($events)){
                         echo '<em>You haven\'t created any events yet!</em>';
@@ -49,45 +52,46 @@
                     }
                     else {
                         echo '<h2>Add New Event</h2>';
-                    } ?>
+                    }
+
+                    // select artists for featured artist field
+                    $select = $dat->query('select * from artist');
+                    $artists = $select->fetchAll(PDO::FETCH_ASSOC);
+
+                    ?>
 
                     <form method="post" action="processEvent.php" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col half">
-                                <p>
                                     <label for="event_name">Event Name</label>
                                     <input name="event_name" id="event_name">
                                     <label for="event_date">Date Of Event</label>
-                                    <input type="date" name="event_date" id="event_date">
+                                    <input type="date" name="event_date" id="event_date" title="YYYY-MM-DD" pattern="[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])">
                                     <label for="event_location">Location</label>
                                     <input name="event_location" id="event_location">
                                     <label for="event_tagline">Tagline</label>
                                     <input name="event_tagline" id="event_tagline">
-
-                                </p>
                             </div>
                             <div class="col half">
-                                <p>
                                     <label for="artist_id">Featured Artist</label>
-                                    <input name="artist_id" id="artist_id">
+                                    <select name="artist_id" id="artist_id">
+                                        <option value=""></option>
+                                        <?php foreach($artists as $artist) {
+                                            echo '<option value="'. $artist['artist_id'] .'">'. $artist['artist_name'] .'</option>';
+                                        } ?>
+                                    </select>
                                     <label for="event_tickets">Ticket Price</label>
                                     <input name="event_tickets" id="event_tickets">
                                     <label for="event_concession">Concession Price</label>
                                     <input name="event_concession" id="event_concession">
                                     <label for="event_link">Link To Buy Tickets</label>
                                     <input name="event_link" id="event_link">
-
-
-
-                                </p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col half">
-
                                 <label for="event_info">Event Information</label>
                                 <textarea rows="16" name="event_info" id="event_info"></textarea>
-
                             </div>
                             <div class="col half">
                                 <label for="event_photo">Photo</label>
@@ -99,12 +103,10 @@
                             <div class="col">
                                 <p>
                                     <button type="submit" name="submit" id="submit" value="new">Submit</button>
-
                                     <?php if (isset($_GET['event_id'])) {
                                         // if editing add a delete button
                                         echo '<button type="submit" name="submit" id="submit" value="delete">Delete</button>';
                                     } ?>
-
                                 </p>
                             </div>
                         </div>
@@ -129,7 +131,12 @@
         // use javascript to update the values of fields
         echo '<script type="text/javascript">';
         foreach (array_slice($result, 1, 9) as $i => $value) {
-            echo 'document.getElementById("' . $i . '").value = "' . $value . '";';
+
+            // fix line breaks
+            $value = nl2br($value);
+            $value = str_replace("\r\n",'',$value);
+            echo 'var text = "' . $value .'";';
+            echo 'document.getElementById("' . $i . '").value = text.replace(/<br \/>/ig,"\\n");';
             next($result);
         }
 
@@ -142,6 +149,12 @@
 
         // set artist_id as session variable, we'll need it for processing
         $_SESSION['event_id'] = $_GET['event_id'];
+    } else {
+
+        // if not editing, set date to todays date by default
+        echo '<script>var today = new Date();var dd = today.getDate();var mm = today.getMonth()+1;var yyyy = today.getFullYear();';
+        echo 'if(dd<10){dd="0"+dd} if(mm<10){mm="0"+mm} var today = yyyy+"-"+mm+"-"+dd;';
+        echo 'document.getElementById("event_date").value = today</script>';
     }
 
 include("footer.php"); ?>

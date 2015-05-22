@@ -3,7 +3,7 @@
         <div class="row">
             <div id="main" class="col wide">
 
-                <?php if(!isset($_SESSION['userLoggedIn']) || $_SESSION['user_status'] < 1){
+                <?php if(!isset($_SESSION['userLoggedIn'])){
                     include('moduleNoAccess.php');
                 } else {
 
@@ -21,11 +21,17 @@
                     }
 
                     include("connectdb.php");
-                    $select = $dat->query('select * from bulletin where user_id = "'. $_SESSION['user_id'] .'"');
+
+                    // select only bulletins within the last month
+                    $today = date('Y-m-d');
+                    $lastmonth = date('Y-m-d', mktime(0, 0, 0, date("m")-1, date("d"),   date("Y")));
+
+                    $select = $dat->query('select * from bulletin where user_id = "'. $_SESSION['user_id'] .'" and bulletin_date between "'. $lastmonth .'" and "'.$today .'" order by bulletin_id desc');
                     $bulletins = $select->fetchAll(PDO::FETCH_ASSOC);
 
                     // if no bulletins
                     echo '<div class="artistMy"><h2>My Bulletins</h2>';
+                    echo '<p>Bulletins will expire after one month.</p>';
                     if(empty($bulletins)){
                         echo '<em>You haven\'t created any bulletins yet!</em>';
                     }
@@ -55,15 +61,14 @@
                         <div class="row">
                             <div class="col half">
                                 <p>
-                                    <label for="bulletin_date">Date To Post</label>
-                                    <input type="date" name="bulletin_date" id="bulletin_date">
+                                    <input type="hidden" name="bulletin_date" id="bulletin_date" value="2015-01-01">
                                     <label for="bulletin_title">Title</label>
                                     <input name="bulletin_title" id="bulletin_title">
                                     <label for="bulletin_info">Information</label>
-                                    <textarea rows="5" name="bulletin_info" id="bulletin_info"></textarea>
+                                    <textarea rows="8" name="bulletin_info" id="bulletin_info"></textarea>
 
                                     <label for="bulletin_photo">Photo</label>
-                                    <input type="file" name="bulletin_photo" id ="bulletin_photo">
+                                    <input type="file" name="bulletin_photo" id ="bulletin_photo" value="/images/default.gif">
 
                                     <input type="hidden" name="user_id" value="<?php echo $_SESSION['user_id']; ?>">
                                 <p>
@@ -113,7 +118,12 @@
         // use javascript to update the values of fields
         echo '<script type="text/javascript">';
         foreach (array_slice($result, 1, 3) as $i => $value) {
-            echo 'document.getElementById("' . $i . '").value = "' . $value . '";';
+
+            // fix line breaks
+            $value = nl2br($value);
+            $value = str_replace("\r\n",'',$value);
+            echo 'var text = "' . $value .'";';
+            echo 'document.getElementById("' . $i . '").value = text.replace(/<br \/>/ig,"\\n");';
             next($result);
         }
 
@@ -126,10 +136,13 @@
 
         // set artist_id as session variable, we'll need it for processing
         $_SESSION['bulletin_id'] = $_GET['bulletin_id'];
+
     } else {
 
         // if not editing, set date to todays date by default
-        echo '<script>document.getElementById("bulletin_date").value = Date();</script>';
+        echo '<script>var today = new Date();var dd = today.getDate();var mm = today.getMonth()+1;var yyyy = today.getFullYear();';
+        echo 'if(dd<10){dd="0"+dd} if(mm<10){mm="0"+mm} var today = yyyy+"-"+mm+"-"+dd;';
+        echo 'document.getElementById("bulletin_date").value = today</script>';
     }
 
 include("footer.php"); ?>
