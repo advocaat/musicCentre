@@ -4,7 +4,8 @@ CP1406/CP2010 Group Assignment
 
 **Important Folders**
 - .html : CP1406 Code
-- .jamiesAssignment1 : Jamie's Assignment 1 for reference
+- .cameronsWork : Cams updated HTML
+- .jamiesAssignment1 : Jamie's Assignment 1 for reference on columns
 
 **User Accounts**
 - User level : user@email.com
@@ -12,16 +13,29 @@ CP1406/CP2010 Group Assignment
 - Admin level : admin@email.com
 - Passwords : password
 
-**(Mostly) Finished Functionality**
-- Login/Logout
-- User add/edit
-- Artist display
-- Artist add/edit
-- Access control
-- Header/Footer
+**Still To To**
+- Photo Upload
+- Limit bulletin display by one month
+- Limit event display by date
+- Add comments to bulletinDetail.php ?
+- Admin settings page
+- Make "Featured Artist" in editEvent.php a dropdown field
+- Make "Category" in editArtist.php a dropdown field
+- Fix bug with adding illegal chars to input fields (use string replace?)
+
 
 Changelog
 =========
+
+**22/05/15 - Jamie**
+
+- updated artist specific css to be generic for listing events and bulletins
+- dropped size of featured photo to 33% max width
+- fixed up events page layout
+- added sponsors to sidebar.php
+- added members page text
+- fixed events and bulletin add/edit
+- added photo processing and upload
 
 **29/04/15 - Jamie**
 

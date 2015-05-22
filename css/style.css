@@ -120,6 +120,9 @@ img {
 	background-size:cover;
 	background-position:top;
 }
+#sponsors p {
+	float: left;
+}
 
 /* history *************************************************************/
 
@@ -134,25 +137,27 @@ img {
 /* artists *************************************************************/
 
 .artist {
+	margin-bottom: 20px;
 }
 .artist img {
-	width: 100%;
 	border-radius: 15px;
+	width:100%;
 	margin:0;
 }
 .artistFeature {
-	border: 1px solid lightgray;
-	border-radius: 15px;
-	margin: 20px 0 20px;
+	margin-bottom: 20px;
+	border-radius:15px;
+	border: 1px solid lightgrey;
 }
 .artistFeature img {
-	max-width: 50%;
+	max-width: 33%;
+	max-height: 300px;
 	float: left;
 	border-radius: 15px;
 	margin: 20px 20px 20px 0;
 }
 .artistFull img {
-	max-width: 50%;
+	max-width: 33%;
 	margin: 20px 20px 0 0;
 	float: left;
 	border-radius: 15px;
@@ -167,8 +172,12 @@ img {
 	max-height: 30px;
 	border-radius: 5px;
 }
+#display_photo {
+	border-radius: 15px;
+}
 
 /* font adjustment classes ************************************************/
+
 .font-center{
 	text-align:center;
 }

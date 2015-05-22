@@ -4,7 +4,7 @@
             <div id="main" class="col wide">
 
                 <?php if(!isset($_SESSION['userLoggedIn']) || $_SESSION['user_status'] < 1){
-                    include('moduleNoAccess.php?status=1');
+                    include('moduleNoAccess.php');
                 } else {
 
                     // display any errors
@@ -13,6 +13,12 @@
                             echo '<em class="success">Process completed successfully.</em>';
                         }
                         if ($_GET['error'] == '1') {
+                            echo '<em class="error">Error in photo file.</em>';
+                        }
+                        if ($_GET['error'] == '2') {
+                            echo '<em class="error">Photo wrong file type.</em>';
+                        }
+                        if ($_GET['error'] == '3') {
                             echo '<em class="error">Email is not valid.</em>';
                         }
                     }
@@ -48,35 +54,34 @@
                         echo '<h2>Add New Artist</h2>';
                     } ?>
 
-                    <form method="post" action="processArtist.php">
+                    <form method="post" action="processArtist.php" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col half">
-                                <p>
                                     <label for="artist_name">Artist Name</label>
                                     <input name="artist_name" id="artist_name">
                                     <label for="artist_category">Category</label>
                                     <input name="artist_category" id="artist_category">
+                                    <label for="artist_genre">Genre</label>
+                                    <input name="artist_genre" id="artist_genre">
+                            </div>
+                            <div class="col half">
                                     <label for="artist_phone">Phone Number</label>
                                     <input name="artist_phone" id="artist_phone">
                                     <label for="artist_email">Email Address</label>
                                     <input name="artist_email" id="artist_email">
                                     <label for="artist_website">Website URL</label>
                                     <input name="artist_website" id="artist_website">
-                                </p>
-                            </div>
-                            <div class="col half">
-                                <p>
-                                    <img src="images/artists/default.png">
-                                    <input type="hidden" name="artist_photo" id="artist_photo" value="images/artists/default.png">
-                                </p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col">
-                                <label for="artist_genre">Genre</label>
-                                <input name="artist_genre" id="artist_genre">
+                            <div class="col half">
                                 <label for="artist_info">Information & Biography</label>
-                                <textarea rows="10" name="artist_info" id="artist_info"></textarea>
+                                <textarea rows="16" name="artist_info" id="artist_info"></textarea>
+                            </div>
+                            <div class="col half">
+                                <label for="artist_photo">Photo</label>
+                                <input type="file" name="artist_photo" id ="artist_photo">
+                                <img src="images/default.gif" id="display_photo" width="100%">
                             </div>
                         </div>
 
@@ -92,7 +97,6 @@
                                         // if editing add a delete button
                                         echo '<button type="submit" name="submit" id="submit" value="delete">Delete</button>';
                                     } ?>
-
                                 </p>
                             </div>
                         </div>
@@ -117,12 +121,16 @@
 
         // use javascript to update the values of fields
         echo '<script type="text/javascript">';
-        foreach (array_slice($result, 1, 8) as $i => $value) {
+        foreach (array_slice($result, 1, 7) as $i => $value) {
             echo 'document.getElementById("' . $i . '").value = "' . $value . '";';
             next($result);
         }
+
         // switch submit value to update to enable correct processing
         echo 'document.getElementById("submit").value = "update";';
+
+        // display photo from database
+        echo 'document.getElementById("display_photo").src="' . $result['artist_photo'] . '";';
         echo '</script>';
 
         // set artist_id as session variable, we'll need it for processing

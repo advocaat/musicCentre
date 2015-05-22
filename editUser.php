@@ -26,7 +26,7 @@
             // if user logged in, display edit message
             if (isset($_SESSION['userLoggedIn'])) {
                 echo '<h2>Edit Your Details</h2>';
-                echo '<p>You can update your account details here. Dont forget to confirm your password before submitting!</p>';
+                echo '<p>You can update your account details here. Don\'t forget to confirm your password!</p>';
             } // else display registration message
             else {
                 echo '<h2>Register</h2>';

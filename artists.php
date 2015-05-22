@@ -2,6 +2,8 @@
     <div class="container">
         <div class="row">
             <div id="main" class="col wide">
+                <h2>Artists</h2>
+
                 <div class="row">
                 <?php
 
@@ -21,10 +23,11 @@
                     if(filter_var($website, FILTER_VALIDATE_URL)){
                         echo 'Website: <a href="'. $website.'">'. $website.'</a></p>';
                     }
-                    echo '<p>'. substr($featured["artist_info"], 0, 149) .'...<br />';
-                    echo '<a href="artistDetail.php?artist_id='. $featured['artist_id'] .'">More info</a></p>';
-                    echo '</div></div>';
+                    echo '<p>'. substr($featured["artist_info"], 0, 399) .'...<br />';
+                    echo '<a href="artistDetail.php?artist_id='. $featured['artist_id'] .'">More Info</a></p>';
+                    echo '</div>';
                 }
+                echo '</div>';
 
                 // select everything but featured artist (to do)
                 $select = $dat->query('select * from artist where artist_featured = "false"');
@@ -42,8 +45,8 @@
                     echo '<a href="artistDetail.php?artist_id='. $row["artist_id"] .'"><img src="' . $row['artist_photo'] .'">';
                     echo '<h3>'. $row["artist_name"] .'</h3></a>';
                     echo '<p><strong>'. $row["artist_genre"] .'</strong></p>';
-                    echo '<p>'. substr($row["artist_info"], 0, 99) .'...<br />';
-                    echo '<a href="artistDetail.php?artist_id='. $row["artist_id"] .'">More info</a></p>';
+                    echo '<p>'. substr($row["artist_info"], 0, 199) .'...<br />';
+                    echo '<a href="artistDetail.php?artist_id='. $row["artist_id"] .'">More Info</a></p>';
                     echo '</div>';
 
                     // close div row
