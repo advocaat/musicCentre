@@ -157,6 +157,7 @@ img {
 	border-radius: 15px;
 	width:100%;
 	margin:0;
+    height: 140px;
 }
 .artistFeature {
 	margin-bottom: 20px;
@@ -187,7 +188,15 @@ img {
 #display_photo {
 	border-radius: 15px;
 }
+#backbutton{
 
+
+
+}
+#nextButton{
+    margin-left: 650px;
+    margin-bottom: 10px;
+}
 /* font adjustment classes ************************************************/
 
 .font-right{

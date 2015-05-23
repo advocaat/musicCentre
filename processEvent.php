@@ -44,6 +44,14 @@
         // replace double quotes
         $value = str_replace(array('"'), array("'"), $value);
 
+
+        if(key($_REQUEST) == "event_link"){
+                  $link = $value;
+                  if(strpos($link, "http://") !== 0){
+                      $value = "http://" . $link;
+                       }
+                   }
+
         array_push($fields, key($_REQUEST));
         array_push($values, $value);
         next($_REQUEST);
@@ -69,6 +77,7 @@ if ($_REQUEST['submit'] == 'update') {
 
     session_start();
     include("connectdb.php");
+
 
     // if photo was set
     if ($_FILES['event_photo']["size"] > 1) {
@@ -110,6 +119,15 @@ if ($_REQUEST['submit'] == 'update') {
             continue;
         }
 
+
+        if(key($_REQUEST) == "event_link"){
+            $link = $value;
+            if(strpos($link, "http://") !== 0){
+                $value = "http://" . $link;
+                 }
+             }
+
+             print($_REQUEST['event_link']);
         // escape quotes
         // replace double quotes
         $value = str_replace(array('"'), array("'"), $value);

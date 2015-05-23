@@ -14,9 +14,15 @@
                     echo '<img src="' . $artist['artist_photo'] .'">';
                     echo '<a href="artistDetail.php?artist_id='. $artist["artist_id"] .'"><h2>'. $artist['artist_name'] .'</h2></a>';
                     echo '<p><strong>'. $artist["artist_genre"] .'</strong></p>';
-                    echo '<p>Phone: '. $artist["artist_phone"] .'<br/>';
-                    echo 'Email: '. $artist["artist_email"] .'<br/>';
-                    echo 'Website: <a href="'. $artist['artist_website'] .'">'.  $artist['artist_website'] .'</a></p>';
+                    if($artist['artist_phone']!= null){
+                        echo '<p>Phone: '. $artist["artist_phone"] .'<br/>';
+                    }
+                    if($artist['artist_email']!=null){
+                        echo 'Email: '. $artist["artist_email"] .'<br/>';
+                    }
+                    if($artist['artist_website']!=null){
+                        echo 'Website: <a href="http://'. $artist['artist_website'] .'">'.  $artist['artist_website'] .'</a></p>';
+                    }
                     echo '<p>'. nl2br($artist["artist_info"]) .'</p>';
                 ?>
 

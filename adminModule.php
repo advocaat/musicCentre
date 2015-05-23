@@ -62,6 +62,7 @@ else { ?>
                 <option value="bulletin">Bulletins</option>
                 <option value="event">Events</option>
                 <option value="user">Users</option>
+                <option value="settings">Categories</option>
             </select>
             <button type="submit" value="load">Load Table</button>
         </form>
@@ -72,6 +73,7 @@ else { ?>
         } else {
 
             // upadte pageOption to reflect table to be loaded
+
             echo '<script>document.getElementById("pageOption").value = "' . $_REQUEST["pageOption"] . '"</script>';
 
             echo '<table>';

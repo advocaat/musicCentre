@@ -8,7 +8,7 @@
                 <p>The Music Centre is also registered as a Deductible Gift Recipient. Any extra donations are tax-deductible! </p>
                 <p>To become a Member, first <a href="editUser.php">create a free user account here</a> then click the Paypal link below.</p>
                 <p>For more information or other payment methods, please <a href="mailto:admin@townsvillemusic.org.au">email us</a>.</p>
-                <p><em>Paypal link goes here.</em></p>
+                <p><em><a href="https://www.paypal.com/au/cgi-bin/webscr?cmd=_flow&SESSION=re6JK7jkwTI59kHgcKXPTG4uNw-wm2b5y2JeSpI6Y2WGfybh1BjlNxwBRR4&dispatch=5885d80a13c0db1f8e263663d3faee8d99e4111b56ef0eae45e68b8988f5b2dd"><img src="images/Donate_Button.png" width="250" style="margin: 200px " ></a></em></p>
             </div>
             <div class="col narrow">
                 <?php include("sidebar.php");?>

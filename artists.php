@@ -29,36 +29,64 @@
                 // select everything but featured artist (to do)
                 $select = $dat->query('select * from artist where artist_featured = "false"');
                 $result = $select->fetchAll(PDO::FETCH_ASSOC);
-
+                $selectLen = $dat->query('select count(*) from artist where artist_featured = "false"');
+                while($length = $selectLen->fetch()){
+                      $myLength =  $length[0];
+                      echo "<script>console.log(".$length[0].")</script>";
+                 }
                 $count = 1;
-                foreach($result as $row){
+                $i = 0;
+                $pageNumber = 1;
+              if(isset($_GET["page"])){
+                     $pageNumber = $_GET["page"];
 
-                    // open div row
-                    if ($count == 1) {
-                        echo '<div class="row">';
-                    }
+               }
+                $countAll = ($pageNumber * 9) - 9;
+                for($i = ($pageNumber * 9) - 9; $i < $pageNumber * 9; $i++){
+                if($countAll < $myLength){
+                    $countAll += 1;
 
-                    echo '<div class="col narrow artist">';
-                    echo '<a href="artistDetail.php?artist_id='. $row["artist_id"] .'"><img src="' . $row['artist_photo'] .'">';
-                    echo '<h3>'. $row["artist_name"] .'</h3></a>';
-                    echo '<p><strong>'. $row["artist_genre"] .'</strong></p>';
-                    echo '<p>'. substr($row["artist_info"], 0, 199) .'...<br />';
-                    echo '<a href="artistDetail.php?artist_id='. $row["artist_id"] .'">More Info</a></p>';
-                    echo '</div>';
 
-                    // close div row
-                    if ($count == 3) {
+
+                        // open div row
+                        if ($count == 1) {
+                            echo '<div class="row">';
+                        }
+
+                        echo '<div class="col narrow artist">';
+                        echo '<a href="artistDetail.php?artist_id='. $result[$i]["artist_id"] .'"><img src="' . $result[$i]['artist_photo'] .'">';
+                        echo '<h3>'. $result[$i]["artist_name"] .'</h3></a>';
+                        echo '<p><strong>'. $result[$i]["artist_genre"] .'</strong></p>';
+                        echo '<p>'. substr($result[$i]["artist_info"], 0, 199) .'...<br />';
+                        echo '<a href="artistDetail.php?artist_id='. $result[$i]["artist_id"] .'">More Info</a></p>';
                         echo '</div>';
-                        $count = 0;
-                    }
-                    $count +=1;
+
+                        // close div row
+                        if ($count == 3) {
+                            echo '</div>';
+                            $count = 0;
+                        }
+                        $count +=1;}
+
+                        }
+
+                        // close div row if didn't before
+                        if ($count != 1) {
+                            echo '</div>';
 
                 }
+                $pageNumber+=1;
+                if($pageNumber > 2){
+                 $backNumber = $pageNumber - 2;
+                    echo "<a href='artists.php?page=".$backNumber."' id='backButton'>Back</a>";
+                }
+                if($countAll < $myLength){
+                  echo "<a href='artists.php?page=". $pageNumber ."' id='nextButton'>Next</a>";
+                }
 
-                // close div row if didn't before
-                if ($count != 1) {
-                    echo '</div>';
-                }?>
+
+                ?>
+
 
             </div>
             <div id="sidebar" class="col narrow">

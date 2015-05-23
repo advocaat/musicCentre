@@ -16,8 +16,19 @@
                 echo '<p><strong>Posted on '. $result['bulletin_date'] .'</strong></p>';
                 echo '<p>'. nl2br($result['bulletin_info']) .'</p>';
 
-                ?>
 
+                //Maybe add in fields for email website and phone
+                 /*
+                if($result['bulletin_website'] != null){
+                    echo '<a href=https://"' . $result['bulletin_website'] . '"></a>';                }
+                if($$result['bulletin_phone']!= null){
+                    echo '<a href>' . $result['bulletin_phone']
+                }
+                if($$result['bulletin_email']!= null){
+                    echo '<a href="' . $result['bulletin_email] . '"></a>';
+                }
+                ?>
+                */
             </div>
             <div id="sidebar" class="col narrow">
                 <?php include("sidebar.php");?>

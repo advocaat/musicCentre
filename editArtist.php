@@ -60,7 +60,18 @@
                                     <label for="artist_name">Artist Name</label>
                                     <input name="artist_name" id="artist_name">
                                     <label for="artist_category">Category</label>
-                                    <input name="artist_category" id="artist_category">
+                                    <select name="artist_category" id="artist_category">
+                               <?php
+
+
+                                 $select = $dat->query('select category from settings');
+                                  $options = $select->fetchAll(PDO::FETCH_ASSOC);
+                                     foreach($options as $option){
+                                     echo "<option>" . $option['category'] .  "</option>";
+                                    }
+                                                      ?>
+
+                                    </select>
                                     <label for="artist_genre">Genre</label>
                                     <input name="artist_genre" id="artist_genre">
                             </div>

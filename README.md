@@ -14,13 +14,14 @@ CP1406/CP2010 Group Assignment
 - Passwords : password
 
 **Still To To**
-- Add donate links to members.php
-- Admin settings page
-- Make "Category" in editArtist.php a dropdown field
-- Fix buy tickets url
+- Add donate links to members.php - done
+- Admin settings page - done (for category)
+- Make "Category" in editArtist.php a dropdown field - done
+- Fix buy tickets url - done
 - Add comments to bulletinDetail.php ?
 - Delete confirmation?
 - Alt tags for images?
+
 
 **Known Bugs**
 - Need to enter 'http://' for buy tickets url in editEvent.php
