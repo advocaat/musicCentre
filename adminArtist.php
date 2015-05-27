@@ -3,7 +3,7 @@
         <div class="row">
             <div id="main" class="col wide">
 
-                <?php if(!isset($_SESSION['userLoggedIn']) || $_SESSION['user_status'] < '1'){
+                <?php if(!isset($_SESSION['userLoggedIn']) || $_SESSION['user_status'] !== '2'){
                     include('moduleNoAccess.php');
                 } else {
 
@@ -24,11 +24,43 @@
                     }
 
                     include("connectdb.php");
-                    $select = $dat->query('select * from artist where user_id = "'. $_SESSION['user_id'] .'"');
+                    $select = $dat->query('select * from artist');
                     $artists = $select->fetchAll(PDO::FETCH_ASSOC);
+                    $select = $dat->query('select * from settings');
+                    $settings = $select->fetch(PDO::FETCH_ASSOC);
+                    ?>
+
+                    <div class="blockMy">
+                        <h1>Edit Artists</h1>
+                        <hr>
+                        <form method="post" action="processSettings.php" class="row">
+                            <div class="col twothird">
+                                <label for="artist_categories">Artist Categories (comma separated):</label>
+                                <input id="artist_categories" name="artist_categories" value="<?php echo $settings['artist_categories'] ?>">
+                            </div>
+                            <div class="col narrow">
+                                <label for="artist_featured">Featured Artist:</label>
+                                <select id="artist_featured" name="artist_featured">
+                                    <?php
+                                    // get artist names
+                                    foreach ($artists as $row) {
+                                        // automatically select current featured artist
+                                        if ($row['artist_featured'] == 'true') {
+                                            echo '<option selected>'. $row['artist_name'] .'</option>';
+                                            continue;
+                                        }
+                                        echo '<option>'. $row['artist_name'] .'</option>';
+                                    }
+                                    ?>
+                                </select>
+                            </div>
+                            <button type="submit" name="submit" value="artist" style="float:right;margin: 1.5em 1.5em .5em 0;">Save</button>
+                        </form>
+                        <hr>
+
+                    <?php
 
                     // if no artists
-                    echo '<div class="blockMy"><h1>My Artists</h1><hr>';
                     if(empty($artists)){
                         echo '<em>You haven\'t created any artists yet!</em>';
                     }
@@ -40,7 +72,7 @@
                         echo '<td><img src="'. $row['artist_photo'] .'"></td>';
                         echo '<td><strong>'. $row['artist_name'] .'</strong></td>';
                         echo '<td>'. substr($row["artist_info"], 0, 49) .'...' .'</td>';
-                        echo '<td><a href="editArtist.php?artist_id='. $row['artist_id'] .'#edit"><button>Edit</button></a></td>';
+                        echo '<td><a href="adminArtist.php?artist_id='. $row['artist_id'] .'#edit"><button>Edit</button></a></td>';
                         echo '</tr>';
                     }
                     echo '</table></div><hr>';
@@ -100,7 +132,7 @@
                             <div class="col">
                                 <!-- set default new artist status -->
                                 <input type="hidden" name="artist_featured" value="false">
-                                <input type="hidden" name="user_id" value="<?php echo $_SESSION['user_id']; ?>">
+                                <input type="hidden" name="user_id" id="user_id" value="<?php echo $_SESSION['user_id']; ?>">
                                 <hr>
                                 <button type="submit" name="submit" id="submit" value="new">Submit</button>
                                 <?php if (isset($_GET['artist_id'])) {
@@ -145,6 +177,9 @@
 
         // display photo from database
         echo 'document.getElementById("display_photo").src="' . $result['artist_photo'] . '";';
+
+        // set user_id correctly so we don't overwrite it with our own
+        echo 'document.getElementById("user_id").value="' . $result['user_id'] . '";';
         echo '</script>';
 
         // set artist_id as session variable, we'll need it for processing

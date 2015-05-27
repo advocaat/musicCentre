@@ -2,8 +2,16 @@
 
 /* setup document ********************************************************/
 
+/* global box-sizing */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 body {
-	line-height:150%;
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 }
 a:link {
@@ -14,188 +22,189 @@ a:visited {
 	color:steelblue;
 }
 a:hover {
-	color:steelblue;
-	font-style:italic;
+	color:lightskyblue;
 }
 a:active {
 	text-decoration:none;
 }
 input {
 	width:100%;
-	padding: 5px;
-	color:black;
-	border: 3px solid white;
-	border-radius: 5px;
+	padding: .5em;
+	border: 1px solid white;
+	border-radius: .25em;
 	box-shadow: inset 0 1px 3px lightgray;
 }
-input:focus {
-
-	border: 3px solid lightblue;
-	box-shadow: inset 0 1px 2px lightgray;
-	outline:0;
-}
 input:hover {
-	border: 3px solid lightblue;
+	border: 1px solid lightskyblue;
+}
+input:focus {
+	border: 1px solid lightskyblue;
+	outline:0;
 }
 textarea {
 	width:100%;
-	padding: 5px;
-	color:black;
-	border: 3px solid white;
-	border-radius: 5px;
+	padding: .5em;
+	border: 1px solid white;
+	border-radius: .25em;
 	box-shadow: inset 0 1px 3px lightgray;
 }
+textarea:hover {
+	border: 1px solid lightskyblue;
+}
 textarea:focus {
-
-	border: 3px solid lightblue;
-	box-shadow: inset 0 1px 2px lightgray;
+	border: 1px solid lightskyblue;
 	outline:0;
 }
-textarea:hover {
-	border: 3px solid lightblue;
-}
-
 button {
 	text-align: center;
-	width: 6em;
-	border-radius: 5px;
-	border: 0px none;
-	color: #FFF;
-	text-shadow: 0px 1px 0px #2F6627;
-	background: linear-gradient(#ADD8E6, #4682B4) repeat scroll 0% 0% transparent;
+	border-radius: .25em;
+	padding: .5em;
+	color: white;
+	background: #4682B4;
+	border: 0;
+	margin: .5em 0;
+}
+button:hover {
+	background: #588EBC;
+}
+button:active {
+	outline:0;
+	background: #3F75A2;
 }
 select {
 	width:100%;
-	padding: 5px;
-	color:black;
-	border: 3px solid white;
-	border-radius: 5px;
+	padding: .5em;
+	border: 1px solid white;
+	border-radius: .25em;
 	box-shadow: inset 0 1px 3px lightgray;
 }
 select:hover {
-	border: 3px solid lightblue;
+	border: 1px solid lightblue;
+}
+select:focus {
+	outline:0;
+	border: 1px solid lightblue;
 }
 img {
-	margin: 10px;
+	margin: 1em;
+}
+hr {
+	border: 0;
+	border-top: 1px solid whitesmoke;
+}
+.leftButton{
+	float:left;
+}
+.rightButton{
+	float:right;
 }
 
 /* header & footer *******************************************************/
 
 #header{
 	color:white;
-	background-image:url('../images/noteStrip3.jpg');
 	background-size:cover;
-	background-position:left;
-	border-bottom:2px solid steelblue;
+	background: url('../images/noteStrip3.jpg') left;
 	overflow:hidden;
 }
-#navigation ul {
+#logo {
+	float: left;
+	margin: 1em 0;
+}
+#logo img {
 	margin:0;
-	padding:0;
+}
+#navigation ul {
+	margin: 1em;
 	list-style:none;
 	float:right;
 }
 #navigation li {
-	display:inline;
-	float:left;
-	text-align:center;
+	display:inline-block;
+	float: left;
 }
 #navigation a {
-	padding: 25px;
+	padding: 1em;
 	display:block;
-	text-align:center;
 	text-decoration:none;
 	color:white;
 	font-size:large;
-	border-radius: 15px;
+	border-radius: .25em;
 }
 #navigation a:hover {
-	color:steelblue;
-	background-color:rgba(0,0,0, .5);
+	background-color:rgba(0,0,0, .2);
 }
 #navigation a.active {
-	color:steelblue;
-	background-color:rgba(0,0,0, .5);
+	background-color:rgba(0,0,0, .2);
 }
 .navIcon {
-	width:50px;
-	padding-top:25px;
+	height: 15px;
+	margin: 0;
 }
 #footer {
-	border-top:2px solid steelblue;
 	font-size:smaller;
-	padding:5px;
 	text-align:center;
 	color:darkgray;
-	background-image:url('../images/noteStrip3.jpg');
 	background-size:cover;
-	background-position:top;
+	background: url('../images/noteStrip3.jpg') top;
 }
 #sponsors {
 	overflow:hidden;
 }
-#sponsors p {
+#sponsors img {
 	float: left;
 }
 
-/* history *************************************************************/
-
+/* pages *************************************************************/
 #historyTable {
 	width: 100%;
 }
 #historyTable td, th{
-	padding: 10px;
+	padding: .5em;
 	vertical-align: top;
 }
-
-/* artists *************************************************************/
-
-.artist {
-	margin-bottom: 20px;
+#artistCategories {
+	float:right;
+	padding: 1em 0;
 }
-.artist img {
-	border-radius: 15px;
-	width:100%;
-	margin:0;
+#artistCategories select {
+	width: auto;
+}
+
+/* layout *************************************************************/
+
+.block img {
+	margin: 1em 0 0;
+	border-radius: .5em;
     height: 140px;
+	max-width:100%;
 }
-.artistFeature {
-	margin-bottom: 20px;
-	border-radius:15px;
-	border: 1px solid lightgrey;
-}
-.artistFeature img {
+.blockFeature img {
 	max-width: 33%;
-	max-height: 300px;
+	max-height: 250px;
 	float: left;
-	border-radius: 15px;
-	margin: 20px 20px 20px 0;
+	border-radius: .5em;
+	margin: 1em 1em 1em 0;
 }
-.artistFull img {
+.blockFull img {
 	max-width: 100%;
-	border-radius: 15px;
+	max-height: 300px;
+	border-radius: .5em;
+	margin: 1em 0;
 }
-.artistMy table {
+.blockMy table {
 	width: 100%;
 }
-.artistMy td {
+.blockMy td {
 	padding: 10px;
 }
-.artistMy img {
+.blockMy img {
 	max-height: 30px;
 	border-radius: 5px;
 }
 #display_photo {
-	border-radius: 15px;
-}
-#backbutton{
-
-
-
-}
-#nextButton{
-    margin-left: 650px;
-    margin-bottom: 10px;
+	border-radius: .5em;
+	margin: 1em 0;
 }
 /* font adjustment classes ************************************************/
 
@@ -211,19 +220,28 @@ img {
 .font-justify{
 	text-align:justify;
 }
+.font-lead {
+	font-size: x-large;
+	font-weight:bold;
+}
 .error {
-	color: red;
+	color: darkred;
+	background: lightcoral;
+	padding: .5em;
+	border-radius: .5em;
 }
 .success {
-	color: green;
+	color: darkgreen;
+	background: lightgreen;
+	padding: .5em;
+	border-radius: .5em;
 }
 
 /* columns ****************************************************************/
 
-.container {
-	width: 1200px;
+.row {
+	max-width: 1280px;
 	margin: 0 auto;
-
 }
 .col {
 	padding: 0 20px;
@@ -250,13 +268,24 @@ img {
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 	}
+}
+@media only screen and (min-width:768px) {
 	.wide {
-		width: 66%;
+		width: 75%;
 	}
 	.narrow {
+		width: 25%;
+	}
+	.third {
 		width: 33%;
+	}
+	.twothird {
+		width: 66%;
 	}
 	.half {
 		width: 50%;
+	}
+	.tiny {
+		width:20%;
 	}
 }

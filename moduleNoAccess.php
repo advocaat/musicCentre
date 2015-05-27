@@ -1,2 +1,2 @@
-<h2>No dice.</h2>
-<p>You must be logged as a <a href="editUser.php">registered user</a> to do that.
+<h1>No dice.</h1>
+<p>You don't have permission to do that.</p>

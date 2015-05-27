@@ -14,21 +14,34 @@ CP1406/CP2010 Group Assignment
 - Passwords : password
 
 **Still To To**
-- Add donate links to members.php - done
-- Admin settings page - done (for category)
-- Make "Category" in editArtist.php a dropdown field - done
-- Fix buy tickets url - done
 - Add comments to bulletinDetail.php ?
 - Delete confirmation?
 - Alt tags for images?
 
 
-**Known Bugs**
-- Need to enter 'http://' for buy tickets url in editEvent.php
-
-
 Changelog
 =========
+
+**27/05/15 - Jamie**
+
+- updated css to make it more responsive
+- finished header.php
+- fixed lots of css to make ready for submission: margins, column sizes, colors etc
+- added navigation buttons to the bottom of detail pages
+- edited process pages to return to referrer page without get parameters. fixes admin edit bugs.
+- reordered menu links to match user menu
+- added adminMenu.php
+- added admin pages
+- switched artist categories to single comma separated field
+- fixed processing logic to accommodate admin editing
+- added filter on artist page for categories
+
+**25/05/15 - Adam**
+- Added donate links to members.php
+- Admin settings page - done (for category)
+- Make "Category" in editArtist.php a dropdown field
+- Fix buy tickets url
+- added pagination to artists
 
 **22/05/15 - Jamie**
 

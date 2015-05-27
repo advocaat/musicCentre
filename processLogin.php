@@ -25,6 +25,6 @@
     }
 
     // return to previous page
-    header('Location: index.php');
+    header('Location: ' . $_SERVER['HTTP_REFERER']);
     exit;
 ?>

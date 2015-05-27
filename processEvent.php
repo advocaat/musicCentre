@@ -15,7 +15,7 @@
         ) {
             if ($_FILES["event_photo"]["error"] > 0) {
                 // error in photo file
-                header('Location: editEvent.php?error=1');
+                header('Location: '. strtok($_SERVER['HTTP_REFERER'], '?')  .'?error=1');
                 exit;
             } else {
                 // give photo unique name and move to server
@@ -25,7 +25,7 @@
             }
         } else {
             // wrong file type error
-            header('Location: editEvent.php?error=2');
+            header('Location: '. strtok($_SERVER['HTTP_REFERER'], '?')  .'?error=2');
             exit;
         }
     } else {
@@ -68,7 +68,7 @@
     $dat->exec($sql);
 
     // return with no error (success)
-    header('Location: editEvent.php?error=0');
+    header('Location: '. strtok($_SERVER['HTTP_REFERER'], '?')  .'?error=0');
     exit;
 
 }
@@ -95,7 +95,7 @@ if ($_REQUEST['submit'] == 'update') {
             if ($_FILES["event_photo"]["error"] > 0) {
 
                 // error in photo file
-                header('Location: editEvent.php?error=1');
+                header('Location: '. strtok($_SERVER['HTTP_REFERER'], '?')  .'?error=1');
                 exit;
 
             } else {
@@ -128,7 +128,7 @@ if ($_REQUEST['submit'] == 'update') {
              }
 
              print($_REQUEST['event_link']);
-        // escape quotes
+
         // replace double quotes
         $value = str_replace(array('"'), array("'"), $value);
 
@@ -139,7 +139,7 @@ if ($_REQUEST['submit'] == 'update') {
     unset($_SESSION['event_id']);
 
     // return with no error (success)
-    header('Location: editEvent.php?error=0');
+    header('Location: '. strtok($_SERVER['HTTP_REFERER'], '?')  .'?error=0');
     exit;
 }
 
@@ -157,6 +157,6 @@ if ($_REQUEST['submit'] == 'delete') {
     unset($_SESSION['event_id']);
 
     // return with no error (success)
-    header('Location: editEvent.php?error=0');
+    header('Location: '. strtok($_SERVER['HTTP_REFERER'], '?')  .'?error=0');
     exit;
 }

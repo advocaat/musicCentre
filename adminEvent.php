@@ -22,14 +22,11 @@
 
                     include("connectdb.php");
 
-                    // select only events that haven't already happened
-                    $today = date('Y-m-d');
-                    $select = $dat->query('select * from event where event_date >= "'. $today .'" and user_id = "'. $_SESSION['user_id'] .'" order by event_date asc');
+                    // select all events
+                    $select = $dat->query('select * from event order by event_date asc');
                     $events = $select->fetchAll(PDO::FETCH_ASSOC);
 
-
-                    echo '<h1>My Events</h1>';
-                    echo '<p><strong>Note:</strong> Only displaying events that haven\'t happened yet and were created by you. To view all events, including past events or those created by other admins, <a href="adminEvent.php">click here</a>.</p>';
+                    echo '<h1>Edit Events</h1>';
                     echo '<hr><div class="blockMy">';
 
                     // if no events
@@ -45,7 +42,7 @@
                         echo '<td><strong>'. $row['event_name'] .'</strong></td>';
                         echo '<td>'. $row['event_date'] .'</td>';
                         echo '<td>'. substr($row["event_info"], 0, 29) .'...' .'</td>';
-                        echo '<td><a href="editEvent.php?event_id='. $row['event_id'] .'#edit"><button>Edit</button></a></td>';
+                        echo '<td><a href="adminEvent.php?event_id='. $row['event_id'] .'#edit"><button>Edit</button></a></td>';
                         echo '</tr>';
                     }
                     echo '</table></div><hr>';
@@ -108,7 +105,6 @@
                         <hr>
                         <div class="row">
                             <div class="col">
-                                <input type="hidden" name="user_id" id="user_id" value="<?php echo $_SESSION['user_id']; ?>">
                                 <button type="submit" name="submit" id="submit" value="new">Submit</button>
                                 <?php if (isset($_GET['event_id'])) {
                                     // if editing add a delete button
@@ -152,6 +148,9 @@
 
         // display photo from database
         echo 'document.getElementById("display_photo").src="' . $result['event_photo'] . '";';
+
+        // set user_id correctly so we don't overwrite it with our own
+        echo 'document.getElementById("user_id").value="' . $result['user_id'] . '";';
         echo '</script>';
 
         // set event_id as session variable, we'll need it for processing

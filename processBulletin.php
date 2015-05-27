@@ -14,7 +14,7 @@
             && in_array($upload_exts, $file_exts)) {
             if ($_FILES["bulletin_photo"]["error"] > 0) {
                 // error in photo file
-                header('Location: editBulletin.php?error=1');
+                header('Location: '. strtok($_SERVER['HTTP_REFERER'], '?')  .'?error=1');
                 exit;
             } else {
                 // give photo unique name and move to server
@@ -24,7 +24,7 @@
         }
         else {
             // wrong file type error
-            header('Location: editBulletin.php?error=2');
+            header('Location: '. strtok($_SERVER['HTTP_REFERER'], '?')  .'?error=2');
             exit;
         }
     }
@@ -61,7 +61,7 @@
     echo $sql;
 
     // return with no error (success)
-    header('Location: editBulletin.php?error=0');
+    header('Location: '. strtok($_SERVER['HTTP_REFERER'], '?')  .'?error=0');
     exit;
 }
 
@@ -85,7 +85,7 @@ if ($_REQUEST['submit'] == 'update') {
             if ($_FILES["bulletin_photo"]["error"] > 0) {
 
                 // error in photo file
-                header('Location: editBulletin.php?error=1');
+                header('Location: '. strtok($_SERVER['HTTP_REFERER'], '?')  .'?error=1');
                 exit;
 
             } else {
@@ -119,7 +119,7 @@ if ($_REQUEST['submit'] == 'update') {
     unset($_SESSION['bulletin_id']);
 
     // return with no error (success)
-    header('Location: editBulletin.php?error=0');
+    header('Location: '. strtok($_SERVER['HTTP_REFERER'], '?')  .'?error=0');
     exit;
 }
 
@@ -137,6 +137,6 @@ if ($_REQUEST['submit'] == 'delete') {
     unset($_SESSION['bulletin_id']);
 
     // return with no error (success)
-    header('Location: editBulletin.php?error=0');
+    header('Location: '. strtok($_SERVER['HTTP_REFERER'], '?')  .'?error=0');
     exit;
 }

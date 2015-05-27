@@ -134,37 +134,37 @@ img {
 
 /* artists *************************************************************/
 
-.artist {
+.block {
 }
-.artist img {
+.block img {
 	width: 100%;
 	border-radius: 15px;
 	margin:0;
 }
-.artistFeature {
+.blockFeature {
 	border: 1px solid lightgray;
 	border-radius: 15px;
 	margin: 20px 0 20px;
 }
-.artistFeature img {
+.blockFeature img {
 	max-width: 50%;
 	float: left;
 	border-radius: 15px;
 	margin: 20px 20px 20px 0;
 }
-.artistFull img {
+.blockFull img {
 	max-width: 50%;
 	margin: 20px 20px 0 0;
 	float: left;
 	border-radius: 15px;
 }
-.artistMy table {
+.blockMy table {
 	width: 100%;
 }
-.artistMy td {
+.blockMy td {
 	padding: 10px;
 }
-.artistMy img {
+.blockMy img {
 	max-height: 30px;
 	border-radius: 5px;
 }

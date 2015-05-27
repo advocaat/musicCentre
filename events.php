@@ -3,7 +3,8 @@
     <div class="row">
         <div id="main" class="col wide">
 
-            <h2>Upcoming Events</h2>
+            <h1>Upcoming Events</h1>
+            <hr>
 
             <?php include("connectdb.php");
 
@@ -13,25 +14,25 @@
 
             foreach($results as $result) {
                 echo '<div class="row">';
-                echo '<div class="col artistFeature">';
+                echo '<div class="col blockFeature">';
                 echo '<img src="' . $result['event_photo'] .'">';
-                echo '<a href="eventDetail.php?event_id='. $result['event_id'] .'"><h2>'. $result['event_name'] .'</h2></a>';
-                echo '<p><strong>'. $result['event_tagline'] .'</strong></p><p>';
+                echo '<p><a class="font-lead" href="eventDetail.php?event_id='. $result['event_id'] .'">'. $result['event_name'] .'</a><br/>';
+                echo '<strong>'. $result['event_tagline'] .'</strong></p>';
 
                 // display featured artist if set
                 if (isset($result['artist_id'])) {
                     $select = $dat->query('select artist_name from artist where artist_id='. $result['artist_id']);
                     $artist = $select->fetch(PDO::FETCH_ASSOC);
-                    echo 'Featuring: <a href="artistDetail.php?artist_id='. $result['artist_id'] . '">'. $artist['artist_name']. '</a><br/>';
+                    echo '<p>Featuring: <a href="artistDetail.php?artist_id='. $result['artist_id'] . '">'. $artist['artist_name']. '</a></p>';
                 }
 
-                echo 'When: '. $result['event_date'] .'<br/>';
+                echo '<p>When: '. $result['event_date'] .'<br/>';
                 echo 'Where: '. $result['event_location'] .'<br/>';
                 echo 'Tickets: '. $result['event_tickets'] .'<br/>';
-                echo 'Concession: '. $result['event_concession'] .'<br/>';
-                echo '<p>'. substr($result['event_info'], 0, 249) .'...<br />';
-                echo '<a href="eventDetail.php?event_id='. $result['event_id'] .'">More Info & Tickets</a></p>';
-                echo '</div></div>';
+                echo 'Concession: '. $result['event_concession'] .'</p>';
+                echo '<p>'. substr($result['event_info'], 0, 299) .'...<br />';
+                echo '<a href="eventDetail.php?event_id='. $result['event_id'] .'"><button>More Info & Tickets</button></a></p>';
+                echo '</div></div><hr>';
             }
             ?>
 

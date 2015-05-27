@@ -1,9 +1,10 @@
 <?php include("header.php"); ?>
     <div class="container">
         <div class="row">
-            <div id="main" class="col wide artistFull">
+            <div id="main" class="col wide blockFull">
 
-                <h2>Artist Details</h2>
+                <h1>Artist Details</h1>
+                <hr>
 
                 <?php
                 // select artist
@@ -26,6 +27,8 @@
                     echo '<p>'. nl2br($artist["artist_info"]) .'</p>';
                 ?>
 
+                <hr>
+                <a href="artists.php"><button class="rightButton">Back To Artists</button></a>
             </div>
             <div id="sidebar" class="col narrow">
                 <?php include("sidebar.php");?>

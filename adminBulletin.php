@@ -1,7 +1,7 @@
 <?php include("header.php"); ?>
         <div class="row">
             <div id="main" class="col wide">
-                <?php if(!isset($_SESSION['userLoggedIn'])){
+                <?php if(!isset($_SESSION['userLoggedIn']) || $_SESSION['user_status'] !== '2'){
                     include('moduleNoAccess.php');
                 } else {
 
@@ -20,16 +20,17 @@
 
                     include("connectdb.php");
 
-                    // select only bulletins within the last month
+                    // select all bulletins
                     $today = date('Y-m-d');
                     $lastmonth = date('Y-m-d', mktime(0, 0, 0, date("m")-1, date("d"),   date("Y")));
 
-                    $select = $dat->query('select * from bulletin where user_id = "'. $_SESSION['user_id'] .'" and bulletin_date between "'. $lastmonth .'" and "'.$today .'" order by bulletin_id desc');
+                    $select = $dat->query('select * from bulletin order by bulletin_id desc');
                     $bulletins = $select->fetchAll(PDO::FETCH_ASSOC);
 
+                    echo '<div class="blockMy"><h1>Edit Bulletins</h1>';
+                    echo '<hr>';
+
                     // if no bulletins
-                    echo '<div class="blockMy"><h1>My Bulletins</h1>';
-                    echo '<p>Bulletins will expire after one month.</p><hr>';
                     if(empty($bulletins)){
                         echo '<em>You haven\'t created any bulletins yet!</em>';
                     }
@@ -42,7 +43,7 @@
                         echo '<td><strong>'. $row['bulletin_title'] .'</strong></td>';
                         echo '<td>'. $row['bulletin_date'] .'</td>';
                         echo '<td>'. substr($row["bulletin_info"], 0, 29) .'...' .'</td>';
-                        echo '<td><a href="editBulletin.php?bulletin_id='. $row['bulletin_id'] .'"><button>Edit</button></a></td>';
+                        echo '<td><a href="adminBulletin.php?bulletin_id='. $row['bulletin_id'] .'"><button>Edit</button></a></td>';
                         echo '</tr>';
                     }
                     echo '</table></div><hr>';
@@ -68,7 +69,7 @@
                                     <textarea rows="11" name="bulletin_info" id="bulletin_info"></textarea>
                                     <label for="bulletin_photo">Photo</label>
                                     <input type="file" name="bulletin_photo" id ="bulletin_photo" value="/images/default.gif">
-                                    <input type="hidden" name="user_id" value="<?php echo $_SESSION['user_id']; ?>"
+                                    <input type="hidden" id="user_id" name="user_id" value="<?php echo $_SESSION['user_id']; ?>"
                             </div>
                             </div>
                             <div class="col half">
@@ -120,6 +121,9 @@
 
         // display photo from database
         echo 'document.getElementById("display_photo").src="' . $result['bulletin_photo'] . '";';
+
+        // set user_id correctly so we don't overwrite it with our own
+        echo 'document.getElementById("user_id").value="' . $result['user_id'] . '";';
         echo '</script>';
 
         // set artist_id as session variable, we'll need it for processing

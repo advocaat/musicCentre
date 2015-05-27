@@ -255,18 +255,18 @@ button {
 	padding-top:10px;
 }
 /*----|Artist|----*/
-.artist {
+.block {
 	width:100%;
 	height: 400px;
 	float:left;
 	border-bottom: 3px solid steelblue;
 	margin-bottom: 5px;
 }
-.artist h1 {
+.block h1 {
 	text-align:center;
 	color: steelblue;
 }
-.artist img {
+.block img {
 	width: 100%;
 	border-radius: 15px;
 }
