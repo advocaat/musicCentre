@@ -122,10 +122,10 @@ if ($_REQUEST['submit'] == 'update') {
 
         if(key($_REQUEST) == "event_link"){
             $link = $value;
-            if(strpos($link, "http://") !== 0){
+            if(strpos($link, "http://") !== 0 && strpos($link, "https://") !== 0){
                 $value = "http://" . $link;
-                 }
-             }
+            }
+        }
 
              print($_REQUEST['event_link']);
 
